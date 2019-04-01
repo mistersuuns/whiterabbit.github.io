@@ -8,10 +8,45 @@
         <style>
             body {
                 font-family: "Avenir";
+                border: dotted grey;
+
+            }
+            .header {
+                padding: 30px;
+                border: dotted grey;
+
             }
 
-            #ethos {
-                font-size: 14px;
+            .vertical {
+                font-size: 1.2em;
+                transform: rotate(-90deg);
+                transform-origin: right;
+                letter-spacing: 0.25em;
+                position: absolute;
+                top: 15%;
+                right: 30%;
+                border: dotted grey;
+
+            }
+
+            .col-1 {
+                border-right: solid black;
+                margin-right: 50px;
+                border: dotted grey;
+
+            }
+
+            #line {
+                height: 10%;
+                border-left: 100% solid black;
+                border: dotted grey;
+
+            }
+
+            .col-6 {
+                margin-left: 30px;
+                border: dotted grey;
+
             }
 
             @font-face {
@@ -24,18 +59,49 @@
                 font-size: 83px;
                 font-weight: bold;
                 line-height: 0.8em;
+                margin-top: 20px;
+                border: dotted grey;
+
             }
+
+            #ethos {
+                font-size: 14px;
+                margin-top: 30px;
+                margin-bottom: 30px;
+                border: dotted grey;
+
+            }
+
             #address {
                 letter-spacing: 0.15em;
+                border: dotted grey;
+
             }
             #train-station {
-                font-size: 0.08em;
+                font-size: 0.7em;
             }
+
+            .footer {
+                padding: 2.5em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: dotted grey;
+                background-color: black;
+                font-family: "Avenir";
+                width: 100%;
+            }
+
+            #email {
+                font-size: .9em;
+                letter-spacing: 0.075em;
+            }
+
         </style>
     </head>
     <body>
         <!-- header -->
-        <div class="header">
+        <div class="container header">
             <p>
             </p>
         </div>
@@ -44,19 +110,17 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-5">
+                <div class="col-4">
                     <!-- white rabbit svg -->
                     <img src="whiteRabbitLogo.svg" alt="whiteRabbitLogo"/>
                 </div>
            
-                <div class="col-2">
+                <div class="col-1">
                     <!-- white rabbit coffee co. -->
-                    <p transform: rotate(-90deg);>white rabbit coffee co.</p>
-                    <!-- vertical line -->
-                    <hr transform: rotate(-90deg);>
+                    <div class="vertical">white&nbsp;rabbit&nbsp;coffee&nbsp;co.</div>
                 </div>
 
-                <div class="col-5">
+                <div class="col-6">
                     <div class="row-3" id="plsEnjoy">
                         <!-- pls enjoy -->
                         <p>Please<br>Enjoy.</p>
@@ -80,13 +144,16 @@
         </div>
 
         <!-- footer -->
-        <div class="footer">
-            <div class="row">
+        <div class="container footer">
+            <div class="row" id="icon">
                 <!-- instagram, facebook -->
+                <img >
+                <p>f</p>
             </div>
-            <div class="row">
+                
+            <div class="row" id="email">
                 <!-- email -->
-                <p text-align=center><a href=mailto:info@whiterabbitcoffeeco.com>info@whiterabbitcoffeeco.com</a></p>
+                <p><a href=mailto:info@whiterabbitcoffeeco.com>info@whiterabbitcoffeeco.com</a></p>
             </div>
         </div>
 
