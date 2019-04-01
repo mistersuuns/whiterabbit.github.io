@@ -8,28 +8,24 @@
         <style>
             body {
                 font-family: "Avenir";
-
             }
-            .header {
-                padding: 30px;
 
+            .header {
+                padding-bottom: 30px;
             }
 
             .vertical {
                 font-size: 1.2em;
                 transform: rotate(-90deg);
                 transform-origin: right;
-                letter-spacing: 0.25em;
+                letter-spacing: 0.15em;
                 position: absolute;
-                top: 15%;
+                top: 20%;
                 right: 30%;
-
             }
 
-            .col-1 {
+            #whiteRabbitCoffeeCo {
                 border-right: solid black;
-                margin-right: 50px;
-
             }
 
             #line {
@@ -63,29 +59,40 @@
             #address {
                 letter-spacing: 0.15em;
             }
+
             #train-station {
                 font-size: 0.7em;
             }
 
             #instagram {
+                height: 1.75em;
+                background-size: 2.5em 2.5em;
+                padding-bottom: .1em;
             }
-            
+
             #facebook {
-                font-size: 1.5em;
+                font-size: 2em;
             }
 
             .footer {
+                margin-top: 2em;
                 padding-top: 2.5em;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 background-color: rgb(24, 23, 23);
                 font-family: "Avenir";
-                width: 100%;
+            }
+
+            .icons {
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
 
             #email {
-                font-size: .9em;
+                padding: 2em;
+                font-size: 0.75em;
                 letter-spacing: 0.075em;
             }
 
@@ -107,7 +114,7 @@
                     <img src="whiteRabbitLogo.svg" alt="whiteRabbitLogo"/>
                 </div>
            
-                <div class="col-1">
+                <div class="col-1" id="whiteRabbitCoffeeCo">
                     <!-- white rabbit coffee co. -->
                     <div class="vertical">white&nbsp;rabbit&nbsp;coffee&nbsp;co.</div>
                 </div>
@@ -119,7 +126,7 @@
                     </div>
                     <div class="row-3" id="ethos">
                         <!-- description -->
-                        <p>We serve Fernwood Coffee espresso drinks, filter coffee, and toast by the slice. Whether you need a place to study, an afternoon pick me up or need a refill before heading out into nature, we encourage you to enjoy.</p>
+                        <p>We serve Fernwood Coffee espresso drinks, filter coffee, and toast by the slice. Whether you need a place to study, an afternoon pick-me-up, or a refill before heading out into nature, we encourage you to enjoy.</p>
                         
                         <p>Enjoy good company, enjoy smiling, enjoy the walls, hell, enjoy your dog, just please take a moment and enjoy your coffee.</p>
                         
@@ -137,16 +144,17 @@
 
         <!-- footer -->
         <div class="row footer">
-            <div class="row" id="icon">
+            <div class="col-12 icons">
                 <!-- instagram, facebook -->
                     <a href="https://www.instagram.com/whiterabbit.coffeeco/"><img src="instagram.svg" alt="instagram" id="instagram"></a>
                     &nbsp;
-                    <a href="https://www.facebook.com/WRCCNanaimo/" id="facebook">f</a><br><br>
+                    &nbsp;
+                    <a href="https://www.facebook.com/WRCCNanaimo/" id="facebook">f</a>
             </div>
-                
+
             <div class="row" id="email">
                 <!-- email -->
-                <p><a href=mailto:info@whiterabbitcoffeeco.com>info@whiterabbitcoffeeco.com</a></p>
+                 <a href=mailto:info@whiterabbitcoffeeco.com>info@whiterabbitcoffeeco.com</a>
             </div>
         </div>
 
