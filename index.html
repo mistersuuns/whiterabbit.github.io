@@ -16,26 +16,29 @@
                 padding-bottom: 30px;
             }
 
-            .Logo {
-                max-width: 500px;
-            }
-
             .vertical {
                 transform: rotate(-90deg);
                 transform-origin: right;
                 letter-spacing: 0.15em;
                 position: absolute;
-                top: 30%;
+                top: 32.5%;
                 right: 30%;
+                font-size: 2.5vh;
             }
 
-            #whiteRabbitCoffeeCo {
-                font-size: 2.5vh;
-                border-right: solid black;
+            .line {
+                border-left: solid black;
+                padding: 1em;
+            }
+
+            .Logo {
+                max-width: 30em;
+                padding-right: 0;
             }
 
             .text {
-                margin-left: 3em;
+                padding-left: 3em;
+                padding-right: 2em;
             }
 
             @font-face {
@@ -45,11 +48,13 @@
 
             #plsEnjoy {
                 font-family: ButlerBlack; 
-                font-size: 8vw;
+                font-size: 5em;
                 font-weight: bold;
+                letter-spacing: 0.015em;
                 line-height: 0.8em;
                 margin-top: .25em;
                 padding-top: .25em;
+                max-width: 80%;
             }
 
             #ethos {
@@ -57,14 +62,17 @@
                 line-height: 1.25;
                 margin-top: 10%;
                 margin-bottom: 10%;
+                max-width: 80%;
             }
 
             #address {
                 letter-spacing: 0.15em;
+                max-width: 80%;
             }
 
             #train-station {
                 font-size: 0.7em;
+                vertical-align: middle;
             }
 
             #instagram {
@@ -120,9 +128,13 @@
                     <img src="whiteRabbitLogo.svg" alt="whiteRabbitLogo"/>
                 </div>
            
-                <div class="col-sm-1" id="whiteRabbitCoffeeCo">
+                <div class="col-sm-1 d-none d-sm-block" id="whiteRabbitCoffeeCo">
                     <!-- white rabbit coffee co. -->
                     <div class="vertical">white&nbsp;rabbit&nbsp;coffee&nbsp;co.</div>
+                </div>
+                <div class="col-xs-1 d-none d-md-block line">
+                    <!-- line -->
+                    <div class="vertical"></div>
                 </div>
 
                 <div class="col-md text">
@@ -140,8 +152,8 @@
                     </div>
                     <div class="row-1" id="address">
                         <!-- address -->
-                        <p><span>321 SELBY STREET&nbsp;</span><span id="train-station">(TRAIN&nbsp;STATION)</span><br>
-                        NANAIMO, BC</p>
+                        <span>321 SELBY STREET </span><span id="train-station">(TRAIN&nbsp;STATION)</span><br>
+                        <span>NANAIMO, BC</span>
                     </div>
                 </div>
     
