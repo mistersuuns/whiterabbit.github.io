@@ -15,25 +15,35 @@
             .header {
                 padding-bottom: 30px;
             }
-
-            .vertical {
-                transform: rotate(-90deg);
-                transform-origin: right;
-                letter-spacing: 0.15em;
-                position: absolute;
-                top: 32.5%;
-                right: 30%;
-                font-size: 2.5vh;
-            }
-
-            .line {
-                border-left: solid black;
-                padding: 1em;
+            
+            .left-space {
+                padding:0;
             }
 
             .Logo {
                 max-width: 30em;
                 padding-right: 0;
+                padding-left: 0;
+            }
+            .vertical {
+                transform: rotate(-90deg);
+                transform-origin: right;
+                letter-spacing: 0.15em;
+                position: absolute;
+                top: 30%;
+                right: 30%;
+                font-size: 2.75vh;
+            }
+
+            .whiteRabbitCoffeeCo {
+                padding-left: 0;
+                color: rgb(63, 63, 63);
+            }
+
+            .line {
+                border-left: rgb(63, 63, 63) solid;
+                padding-right: 1em;
+                padding-top: 1em;
             }
 
             .text {
@@ -122,13 +132,12 @@
         <!-- container -->
         <div class="container-fluid">
             <div class="row">
-
                 <div class="col-sm Logo">
                     <!-- white rabbit svg -->
                     <img src="whiteRabbitLogo.svg" alt="whiteRabbitLogo"/>
                 </div>
            
-                <div class="col-sm-1 d-none d-sm-block" id="whiteRabbitCoffeeCo">
+                <div class="col-sm-1 d-none d-sm-block">
                     <!-- white rabbit coffee co. -->
                     <div class="vertical">white&nbsp;rabbit&nbsp;coffee&nbsp;co.</div>
                 </div>
