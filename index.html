@@ -21,22 +21,31 @@
                 text-align: right;
             }
 
+            @keyframes fade-in {
+                0% {opacity: 0;}
+                100% {opacity: 1;}
+            }
+        
             .Logo {
                 min-width: 15em;
                 max-width: 30em;
                 padding: 0 0 0 0;
+                animation: fade-in 5s;
             }
 
             .vertical {
                 transform-origin: right;
-                transform: rotate(-90deg) translateX(97.5%);
+                transform: rotate(-90deg) translateX(98%);
+                padding-bottom: 2.5%;
                 color: rgb(63, 63, 63);
+                animation-delay: 3s;
+                animation: fade-in 8s;
             }
 
             .text {
                 padding-left: 7.5%;
                 padding-right: 7.5%;
-                border-left: rgb(63, 63, 63) solid;
+                border-left: rgb(120, 120, 120) solid;
             }
 
             @media (max-width: 750px) {
