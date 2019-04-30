@@ -1,192 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-        <link rel="shortcut icon" type="image/png" href="titleLogo.png"/>
-        <title>white rabbit coffee co.</title>
 
-        <style>
-            body {
-                font-family: "Avenir";
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=100vw, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="titleLogo.png" />
+    <title>white rabbit coffee co.</title>
+
+    <style>
+        /*
+            .parallax {
+                height: 100%;
+                overflow: visible;
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            */
+
+        body {
+            font-family: "Avenir";
+            width: 100vw;
+        }
+
+        .header {
+            padding-bottom: 3.5%;
+        }
+
+        .body {
+            padding: 0;
+            margin: 0;
+            position: relative;
+            min-height: 100vh;
+        }
+
+        .content-wrap {
+            padding-bottom: 4em;
+        }
+
+        .white {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .logoWRCC {
+            padding-left: 12%;
+            text-align: right;
+        }
+
+        @keyframes fade-in {
+            0% {
+                opacity: 0;
             }
 
-            .header {
-                padding-bottom: 2.5%;
+            100% {
+                opacity: 1;
             }
-            
-            .logoWWRC {
-                padding-left: 10%;
-                text-align: right;
-            }
+        }
 
-            @keyframes fade-in {
-                0% {opacity: 0;}
-                100% {opacity: 1;}
-            }
-        
-            .Logo {
-                min-width: 10em;
-                max-width: 30em;
-                padding: 0 0 0 0;
-            }
+        .Logo {
+            min-width: 10em;
+            max-width: 30em;
+        }
 
-            .vertical {
-                transform-origin: right;
-                transform: rotate(-90deg) translateX(98%);
-                padding-bottom: 2.5%;
-                color: rgb(63, 63, 63);
-                animation-delay: 5s;
-                animation: fade-in 5s;
-            }
+        .vertical {
+            transform-origin: right;
+            transform: rotate(-90deg) translateX(98%);
+            padding-bottom: 2.5%;
+            color: rgb(63, 63, 63);
+            animation-delay: 5s;
+            animation: fade-in 5s;
+        }
 
+        .text {
+            padding-left: 7.5%;
+            padding-right: 5%;
+            border-left: rgb(120, 120, 120) solid;
+            animation-delay: 5s;
+            animation: fade-in 5s;
+        }
+
+        @media (max-width: 750px) {
             .text {
-                padding-left: 7.5%;
-                padding-right: 7.5%;
-                border-left: rgb(120, 120, 120) solid;
-                animation-delay: 5s;
-                animation: fade-in 5s;
-            }
-
-            @media (max-width: 750px) {
-                .text {
                 border-left: 0px;
-                }
+                padding-left: 10%;
             }
+        }
 
-            @font-face {
-                font-family: ButlerBlack;
-                src: url(Butler_Black.otf);
-                }
-
-            #plsEnjoy {
-                font-family: ButlerBlack; 
-                font-size: 8vh;
-                font-weight: bold;
-                letter-spacing: 0.015em;
-                line-height: 0.8em;
-                margin-top: .25em;
-                padding-top: .25em;
+        @media (max-width: 355px) {
+            .logoWRCC {
+                padding: 5%;
             }
-
-            #ethos {
-                font-size: 0.9em;
-                line-height: 1.25;
-                margin-top: 7.5%;
-                margin-bottom: 7.5%;
-                max-width: 30em;
+        }
+        @media (min-width: 1200px) {
+            .logoWRCC {
+                max-width: 100em;
             }
+        }
 
-            #address {
-                letter-spacing: 0.15em;
-                padding-bottom: 1.5em;
-                padding-right: 7.5%;
-            }
+        @font-face {
+            font-family: ButlerBlack;
+            src: url(Butler_Black.otf);
+        }
 
-            #train-station {
-                font-size: 0.7em;
-                vertical-align: middle;
-            }
+        #plsEnjoy {
+            font-family: ButlerBlack;
+            font-size: 8vh;
+            font-weight: bold;
+            letter-spacing: 0.015em;
+            line-height: 0.8em;
+            margin-top: .25em;
+            padding-top: .25em;
+        }
 
-            #instagram {
-                font-size: 1.5em;
-                color: #ffffff;
-            }
+        #ethos {
+            font-size: 0.9em;
+            line-height: 1.25;
+            margin-top: 7.5%;
+            margin-bottom: 7.5%;
+            max-width: 28em;
+        }
 
-            #facebook {
-                font-size: 1.3em;
-                color: #ffffff;
-            }
+        #address {
+            letter-spacing: 0.15em;
+            padding-bottom: 3em;
+            padding-right: 7.5%;
+        }
 
-            .footer {
-                margin-top: 2.5%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                background-color: rgb(24, 23, 23);
-                font-family: "Avenir";
-            }
+        #train-station {
+            font-size: 0.7em;
+            vertical-align: middle;
+        }
 
-            .icons {
-                padding-top: 1.75em;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100vw;
+            margin-top: auto;
+            background-color: rgb(24, 23, 23);
+            font-family: "Avenir";
+            padding: 2% 0 2% 0;
+        }
 
-            #email {
-                padding-top: 1.25em;
-                padding-bottom: 2.5em;
-                font-size: 0.75em;
-                color: #ffffff;
-                letter-spacing: 0.075em;
-                }
+        #icons {
+            padding: 0 0 .2% 0;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+        }
 
-        </style>
+        #instagram {
+            font-size: 140%;
+            color: #ffffff;
+        }
 
-    </head>
-    
-    <body>
-        <div class="view parallax">
-        <!-- header -->
-        <div class="container-fluid header">
-            <p>
-            </p>
-        </div>
+        #facebook {
+            font-size: 140%;
+            color: #ffffff;
+        }
 
-        <!-- container -->
-        <div class="container-fluid">
-            <div class="row">
+        #email {
+            padding: .2% 0 0 0;
+            font-size: 90%;
+            color: #ffffff;
+            letter-spacing: 0.125em;
+            display: flex;
+            justify-content: center;
 
-                <div class="col logoWWRC">
-                    <div class="Logo"><img src="whiteRabbitLogo.svg" alt="whiteRabbitLogo"/></div>
-                    <div class="col-xs vertical"><img class="d-none d-sm-none d-md-block d-lg-block d-xl block img-fluid" src="whiteRabbitCoffee.svg"></div>
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- header -->
+    <div class="container-span header"></div>
+
+    <!-- container -->
+    <div class="container-span body">
+        <div class="content-wrap">
+            <div class="row white">
+                <div class="col logoWRCC">
+                    <div class="Logo"><img src="whiteRabbitLogo.svg" alt="whiteRabbitLogo" /></div>
+                <div class="col-xs vertical"><img class="d-none d-sm-none d-md-block d-lg-block d-xl block img-fluid" src="whiteRabbitCoffee.svg"></div>
                 </div>
-            
-                <div class="col text">
 
+                <div class="col text">
                     <div class="row-2" id="plsEnjoy">
                         <!-- pls enjoy -->
                         <p>Please<br>Enjoy.</p>
                     </div>
                     <div class="row-2" id="ethos">
                         <!-- description -->
-                        <p>We serve Fernwood Coffee espresso drinks, filter coffee, and toast by the slice. Whether you need a place to study, an afternoon pick-me-up, or a refill before heading out into nature, we encourage you to enjoy.</p>
-                        
-                        <p>Enjoy good company, enjoy smiling, enjoy the walls, hell, enjoy your dog, just please take a moment and enjoy your coffee.</p>
-                        
-                        <p>White Rabbit Coffee Co. aims to create a community space that inspires collaboration. We want to go beyond coffee to become a space of endless possibility. Enjoy your stay.</p>
+                        <p>We serve Fernwood Coffee espresso drinks, filter coffee, and toast by the slice. Whether you
+                            need a place to
+                            study, an afternoon pick-me-up, or a refill before heading out into nature, we encourage you
+                            to enjoy.</p>
+
+                        <p>Enjoy good company, enjoy smiling, enjoy the walls, hell, enjoy your dog, just please take a
+                            moment and enjoy
+                            your coffee.</p>
+
+                        <p>White Rabbit Coffee Co. aims to create a community space that inspires collaboration. We want
+                            to go beyond
+                            coffee to become a space of endless possibility. Enjoy your stay.</p>
                     </div>
                     <div class="row-1" id="address">
                         <!-- address -->
-                        <a href="https://goo.gl/maps/CGWnKEEKEck" style="color: black !important;"><span>321 SELBY STREET </span><span id="train-station">(TRAIN&nbsp;STATION)</span><br>
-                        <span>NANAIMO, BC</span></a>
-
+                        <a href="https://goo.gl/maps/CGWnKEEKEck" style="color: black !important;"><span>321 SELBY
+                                STREET </span><span id="train-station">(TRAIN&nbsp;STATION)</span><br>
+                            <span>NANAIMO, BC</span></a>
                     </div>
                 </div>
-            
-
             </div>
-        </div>
 
-        <!-- footer -->
-        <div class="row footer">
-            <div class="container-fluid icons">
+
+            <!-- footer -->
+            <div class="container-span footer">
                 <!-- instagram, facebook -->
-                    <a href="https://www.instagram.com/whiterabbit.coffeeco/"><i class="fab fa-instagram" id="instagram"></i></a>
-                    &nbsp;
-                    &nbsp;
-                    <a href="https://www.facebook.com/WRCCNanaimo/"><i class="fab fa-facebook-f" id="facebook"></i></a>
-                    
-            </div>
+                <div class="row-span">
+                    <div class="col"></div>
+                    <div class="col-span" id="icons">
+                        <a href="https://www.instagram.com/whiterabbit.coffeeco/"><i class="fab fa-instagram"
+                                id="instagram"></i></a>
+                        &nbsp;
+                        &nbsp;
+                        <a href="https://www.facebook.com/WRCCNanaimo/"><i class="fab fa-facebook-f"
+                                id="facebook"></i></a>
+                    </div>
+                <div class="row-span">
+                    <div class="col-span" id="email">
+                        <a href=mailto:info@whiterabbitcoffeeco.com id="email">info@whiterabbitcoffeeco.com</a>
+                    </div>
+                </div>
 
-            <div class="row">
-                <!-- email -->
-                 <a href=mailto:info@whiterabbitcoffeeco.com id="email">info@whiterabbitcoffeeco.com</a>
+
             </div>
         </div>
-        </div>
-    </body>
+    </div>
+    </div>
+</body>
+
 </html>
