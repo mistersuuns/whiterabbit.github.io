@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/png" href="titleLogo.png" />
+    <script type=text/javascript src="whiteRabbit.js"></script>
+    
     <title>white rabbit coffee co.</title>
 
 
@@ -28,7 +30,7 @@
 		}
 
 	    */
-
+       
 
         .header {
             padding-bottom: 3.5%;
@@ -140,9 +142,8 @@
             vertical-align: middle;
         }
 
-        #embedPhoto {
-            width: 320px;
-            height: 320px;
+        #instagram-media {
+            margin: 10%;
         }
 
         .footer {
@@ -227,12 +228,16 @@
                     </div>
                 </div>
             </div>
+            
             <div class="row">
-                <div class="col">
-                <!-- oembed -->
-                    <script async src="//www.instagram.com/oembed?url=https://www.instagram.com/p/Bsygbc_hJYh/"></script>
+                <div class="col"></div>
+                <div class="col" id="instagram-media">
+                    <script src="https://api.instagram.com/oembed/?url=http://instagr.am/p/fA9uwTtkSN/"></script>
                 </div>
+                <div class="col"></div>
             </div>
+            
+
             <!-- footer -->
             <div class="footer">
                 <!-- instagram, facebook -->
