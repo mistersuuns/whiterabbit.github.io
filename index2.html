@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/png" href="titleLogo.png" />
+    <!--javascript-->
     <script type=text/javascript src="whiteRabbit.js"></script>
     
-    <title>white rabbit coffee co.</title>
+    <title>white rabbit coffee co. index2</title>
 
 
     <style>
@@ -25,13 +26,13 @@
                 background-size: cover;
             }
         
+        *
 	    {
 			border: solid black .5px;
 		}
-
-	    */
-       
-
+        */
+        
+        
         .header {
             padding-bottom: 3.5%;
         }
@@ -75,7 +76,7 @@
 
         .vertical {
             transform-origin: right;
-            transform: rotate(-90deg) translateX(98%);
+            transform: rotate(-90deg) translateX(98%) translateY(-30%);
             padding-bottom: 2.5%;
             color: rgb(63, 63, 63);
             animation-delay: 5s;
@@ -90,16 +91,15 @@
             animation: fade-in 5s;
         }
 
-        @media (max-width: 750px) {
+        @media (max-width: 1030px) {
             .text {
                 border-left: 0px;
-                padding-left: 10%;
             }
         }
 
         @media (max-width: 355px) {
             .logoWRCC {
-                padding: 5%;
+                padding: auto;
             }
         }
         @media (min-width: 1200px) {
@@ -142,8 +142,19 @@
             vertical-align: middle;
         }
 
-        #instagram-media {
-            margin: 10%;
+        .feed {
+            margin: none;
+            padding: none;
+        }
+
+        .responsive-embed {
+                width: 100vw; 
+                overflow: hidden;
+        }
+        @media (min-width:1030px) {
+            .responsive-embed {
+                padding-top: 5%;
+            }
         }
 
         .footer {
@@ -195,7 +206,7 @@
             <!-- header -->
             <div class="row-span header"></div>
             <div class="row white">
-                <div class="col logoWRCC">
+                <div class="col-xl logoWRCC">
                     <div class="Logo"><img src="whiteRabbitLogo.svg" alt="whiteRabbitLogo" /></div>
                 <div class="col-xs vertical"><img class="d-none d-sm-none d-md-block d-lg-block d-xl block img-fluid" src="whiteRabbitCoffee.svg"></div>
                 </div>
@@ -228,13 +239,11 @@
                     </div>
                 </div>
             </div>
-            
-            <div class="row">
-                <div class="col"></div>
-                <div class="col" id="instagram-media">
-                    <script src="https://api.instagram.com/oembed/?url=http://instagr.am/p/fA9uwTtkSN/"></script>
-                </div>
-                <div class="col"></div>
+            <!--instagram feed-->
+            <div class="row-span">
+                
+                    <img class="responsive-embed" src="https://www.instagram.com/p/Bsygbc_hJYh/media/?size=l" alt="visit white rabbit coffee co.'s instagram below :)"></img>
+                
             </div>
             
 
