@@ -1,0 +1,185 @@
+
+        /*        
+            .parallax {
+                height: 100%;
+                overflow: visible;
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        */
+
+        /*
+	    {
+			border: solid black .5px;
+		}
+        */
+        
+        
+        .header {
+            padding-bottom: 3.5%;
+            
+        }
+
+        .body {
+            font-family: "Avenir";
+            width: 100vw;
+            padding: 0;
+            margin: 0;
+            position: relative;
+            min-height: 100vh;
+        }
+
+        .content-wrap {
+            background-image: url("https://www.instagram.com/p/Bsygbc_hJYh/media/?size=l");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+            overflow: visible;
+
+        }
+
+        @media (min-width:1030px) {
+            .responsive-embed {
+                padding-top: 5%;
+            }
+        }
+
+
+        .white {
+            margin: 0;
+            padding: 0;
+        }
+
+        .logoWRCC {
+            padding-left: 12%;
+            text-align: right;
+        }
+
+        @keyframes fade-in {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+ 
+        .Logo {
+            min-width: 10em;
+            max-width: 30em;
+        }
+
+        .vertical {
+            transform-origin: right;
+            transform: rotate(-90deg) translateX(98%) translateY(-30%);
+            padding-bottom: 2.5%;
+            color: rgb(63, 63, 63);
+            animation-delay: 5s;
+            animation: fade-in 5s;
+        }
+
+        .text {
+            padding-left: 7.5%;
+            padding-right: 5%;
+            border-left: rgb(120, 120, 120) solid;
+            animation-delay: 5s;
+            animation: fade-in 5s;
+        }
+
+        @media (max-width: 1030px) {
+            .text {
+                border-left: 0px;
+            }
+        }
+
+        @media (max-width: 355px) {
+            .logoWRCC {
+                padding: auto;
+            }
+        }
+        @media (min-width: 1200px) {
+            .logoWRCC {
+                max-width: 100em;
+            }
+        }
+
+        @font-face {
+            font-family: ButlerBlack;
+            src: url(Butler_Black.otf);
+        }
+
+        #plsEnjoy {
+            font-family: ButlerBlack;
+            font-size: 8vh;
+            font-weight: bold;
+            letter-spacing: 0.015em;
+            line-height: 0.8em;
+            margin-top: .25em;
+            padding-top: .25em;
+        }
+
+        #ethos {
+            font-size: 0.9em;
+            line-height: 1.25;
+            margin-top: 7.5%;
+            margin-bottom: 7.5%;
+            max-width: 28em;
+        }
+
+        #address {
+            letter-spacing: 0.15em;
+            padding-bottom: 3em;
+            padding-right: 7.5%;
+        }
+
+        #train-station {
+            font-size: 0.7em;
+            vertical-align: middle;
+        }
+
+        .feed {
+            margin: none;
+            padding: none;
+        }
+
+
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100vw;
+            margin-top: auto;
+            background-color: rgb(24, 23, 23);
+            font-family: "Avenir";
+            padding: 2% 0 2% 0;
+        }
+
+        #icons {
+            padding: 0 0 .2% 0;
+            margin: 0;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+        }
+
+        #instagram {
+            font-size: 140%;
+            color: #ffffff;
+        }
+
+        #facebook {
+            font-size: 140%;
+            color: #ffffff;
+        }
+
+        #email {
+            padding: .2% 0 0 0;
+            font-size: 90%;
+            color: #ffffff;
+            letter-spacing: 0.125em;
+            display: flex;
+            justify-content: center;
+
+        }
