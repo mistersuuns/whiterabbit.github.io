@@ -27,7 +27,7 @@
         }
 
         .navbar-12 {
-            padding: 0 2em 0 25em;
+            padding: 0 2em 0 45em;
             font-family: "Avenir";
             font-weight: 200;
         }
@@ -76,7 +76,8 @@
 
         .section {
             height: 30vh;
-            justify-content: center;
+            padding: 8em 0 0 5em;
+            color: white;
         }
 
         .vertical {
