@@ -1,4 +1,4 @@
-    /*        
+/*        
     .parallax {
                 height: 100%;
                 overflow: visible;
@@ -7,27 +7,28 @@
                 background-repeat: no-repeat;
                 background-size: cover;
             }
-      
-    
+       
+*/
         * {
-			border: solid white .5px;
+			border: solid black .5px;
 		}
-      */ 
+      
 
         .container-span {
             margin:0;
-            padding:0;
+            padding:0 0 80% 0;
             background-image: url("coffeetable.png");
             background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
+            background-position: top;
+            background-size: 100%;
             overflow: visible;
             font-family: "Avenir";
             position: relative;
         }
 
-        .navbar-12 {
-            padding: 0 2em 0 45em;
+        .navbar-6 {
+            margin: 0;
+            padding: 0;
             font-family: "Avenir";
             font-weight: 200;
         }
@@ -38,15 +39,22 @@
             font-weight: 300;
         }
 
-        .text {
+        .row.text {
             color: white;
             margin: 0;
-            
+            padding: 0; 
         }
+
+        .row.space {
+            height: 18vh;
+            margin: 0;
+            padding: 0;
+        }
+
 
         @media (min-width:1030px) {
             .responsive-embed {
-                padding-top: 5%;
+                padding: 5% 0 0 0;
             }
         }
 
@@ -56,7 +64,7 @@
         }
 
         .logoWRCC {
-            padding-left: 12%;
+            padding-left: 0 0 0 12%;
             text-align: right;
         }
 
@@ -69,15 +77,17 @@
             }
         }
  
-        .Logo {
-            min-width: 10vw;
-            max-width: 20vw;
+        #Logo {
+            min-width: 15vw;
+            max-width: 30vw;
+            padding: 0;
         }
 
+
         .section {
-            height: 30vh;
-            padding: 8em 0 0 5em;
-            color: white;
+            height: 50vh;
+            padding: 2em 0 0 5em;
+            color: black;
         }
 
         .vertical {
@@ -121,24 +131,26 @@
 
         #plsEnjoy {
             font-family: ButlerBlack;
-            font-size: 8vh;
+            font-size: 9vh;
             font-weight: bold;
             letter-spacing: 0.015em;
             line-height: 0.9em;
+            padding-left: 1.25vw;
         }
 
         #ethos {
+            color: white;
             font-size: 0.9em;
-            line-height: 1.3;
-            margin-top: 7.5%;
-            margin-bottom: 7.5%;
+            font-weight: 100;
+            line-height: 2.5vh;
+            letter-spacing: .045em;
+            margin: 7.5% 0 7.5% 20vw;
             max-width: 28em;
         }
 
         #address {
             letter-spacing: 0.15em;
-            padding-bottom: 3em;
-            padding-right: 7.5%;
+            padding: 5vh 3vh 1vh 3vh;
         }
 
         #train-station {
