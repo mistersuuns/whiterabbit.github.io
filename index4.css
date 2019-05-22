@@ -7,16 +7,16 @@
                 background-repeat: no-repeat;
                 background-size: cover;
             }
-       
-*/
+*/     
+
         * {
 			border: solid black .5px;
-		}
-      
+        }
+
 
         .container-span {
             margin:0;
-            padding:0 0 80% 0;
+            padding:0 0 50% 0;
             background-image: url("coffeetable.png");
             background-repeat: no-repeat;
             background-position: top;
@@ -26,17 +26,21 @@
             position: relative;
         }
 
-        .navbar-6 {
-            margin: 0;
+        .col-12.d-flex.justify-content-end { 
             padding: 0;
+        }
+
+        
+        .navbar-6 {
             font-family: "Avenir";
             font-weight: 200;
-        }
+       }
 
         .nav-item {
             list-style: none;
             font-size: 2.75vh;
             font-weight: 300;
+            padding: 2vw;
         }
 
         .row.text {
@@ -58,11 +62,6 @@
             }
         }
 
-        .white {
-            margin: 0;
-            padding: 0;
-        }
-
         .logoWRCC {
             padding-left: 0 0 0 12%;
             text-align: right;
@@ -78,8 +77,8 @@
         }
  
         #Logo {
-            min-width: 15vw;
-            max-width: 30vw;
+            min-width: 10vw;
+            max-width: 15vw;
             padding: 0;
         }
 
@@ -112,7 +111,7 @@
                 border-left: 0px;
             }
         }
-
+/*
         @media (max-width: 355px) {
             .logoWRCC {
                 padding: auto;
@@ -123,7 +122,7 @@
                 max-width: 100em;
             }
         }
-
+*/
         @font-face {
             font-family: ButlerBlack;
             src: url(Butler_Black.otf);
@@ -131,26 +130,46 @@
 
         #plsEnjoy {
             font-family: ButlerBlack;
-            font-size: 9vh;
+            font-size: 9vw;
             font-weight: bold;
             letter-spacing: 0.015em;
             line-height: 0.9em;
-            padding-left: 1.25vw;
+            padding: 2vw 0 0 2vw;
+            margin: 0;
         }
 
-        #ethos {
+        #ethos.row {
             color: white;
-            font-size: 0.9em;
+            font-size: 1.8vh;
             font-weight: 100;
-            line-height: 2.5vh;
-            letter-spacing: .045em;
-            margin: 7.5% 0 7.5% 20vw;
-            max-width: 28em;
+            line-height: 2.25vh;
+            letter-spacing: .02vh;
+            margin: 0;
+            padding: 8vh 0 0 17.5vw;;
+            max-width: 47.5vw;
+        }
+
+        .col-6.ethos {
+            padding: 0;
+            margin: 0;
+        }
+
+        @media (max-width: 885px) {
+            #ethos.row {
+                margin: 0;
+                padding: 1vh 0 0 2vh;
+            }
+        }
+        .row.ethosAddress {
+            margin: 0; 
+            padding: 0;
         }
 
         #address {
-            letter-spacing: 0.15em;
-            padding: 5vh 3vh 1vh 3vh;
+            letter-spacing: 0.15vh;
+            padding: 0 0 0 2vw;
+            margin: 0;
+            font-size: 2.5vh;
         }
 
         #train-station {
