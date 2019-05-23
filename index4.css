@@ -7,16 +7,16 @@
                 background-repeat: no-repeat;
                 background-size: cover;
             }
-*/     
+    
 
         * {
 			border: solid black .5px;
         }
-
+*/ 
 
         .container-span {
             margin:0;
-            padding:0 0 50% 0;
+            padding:0 0 45% 0;
             background-image: url("coffeetable.png");
             background-repeat: no-repeat;
             background-position: top;
@@ -80,6 +80,7 @@
             min-width: 10vw;
             max-width: 15vw;
             padding: 0;
+            margin: 0 4vw 0 0;
         }
 
 
@@ -134,16 +135,16 @@
             font-weight: bold;
             letter-spacing: 0.015em;
             line-height: 0.9em;
-            padding: 2vw 0 0 2vw;
-            margin: 0;
+            padding: 1.75vw 0 0 2vw;
+            margin: 0 0 4vh 0;
         }
 
         #ethos.row {
             color: white;
-            font-size: 1.8vh;
+            font-size: 1.9vh;
             font-weight: 100;
-            line-height: 2.25vh;
-            letter-spacing: .02vh;
+            line-height: 2.3vh;
+            letter-spacing: .03vh;
             margin: 0;
             padding: 8vh 0 0 17.5vw;;
             max-width: 47.5vw;
@@ -157,9 +158,14 @@
         @media (max-width: 885px) {
             #ethos.row {
                 margin: 0;
-                padding: 1vh 0 0 2vh;
+                padding: 0 0 0 2vh;
             }
         }
+
+        #p {
+            height: 10%;
+        }
+
         .row.ethosAddress {
             margin: 0; 
             padding: 0;
@@ -168,18 +174,13 @@
         #address {
             letter-spacing: 0.15vh;
             padding: 0 0 0 2vw;
-            margin: 0;
+            margin: 0 0 2vh 0;
             font-size: 2.5vh;
         }
-
+      
         #train-station {
             font-size: 0.7em;
             vertical-align: middle;
-        }
-
-        .feed {
-            margin: none;
-            padding: none;
         }
 
         .footer {
