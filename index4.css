@@ -190,15 +190,12 @@
         }
 
         .container.sections {
-
+            padding: 0;
+            margin: 0;
         }
 
-        .row.menu .row.us .row.art .row.events {
-            margin: 1vh;
-        }
-
-        .col-md {
-            padding: 1vh;
+        .col-span {
+            margin: 0 0 2vh 0;
         }
 
         .footer {
