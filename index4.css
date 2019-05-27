@@ -16,8 +16,8 @@
 
         .container-span {
             margin:0;
-            padding:0 0 1% 0;
-            background-image: url("coffeeTable.png");
+            padding:0 0 0 0;
+            background-image: url("table1.jpg");
             background-repeat: no-repeat;
             background-position: top;
             background-size: 100%;
@@ -26,6 +26,7 @@
             position: relative;
         }
 
+
         @media (min-width: 375px) and (max-width: 440px) {
             p {
                 font-size: 92%;
@@ -33,6 +34,7 @@
                 letter-spacing: 95%;
             }
         }
+
 
 
         .col-12.d-flex.justify-content-end { 
@@ -177,13 +179,15 @@
             }
         }
 
-        #p {
-            height: 10%;
+        p {
+            margin:0;
         }
+
 
         .row.ethosAddress {
             margin: 0; 
             padding: 0;
+            ;
         }
 
         #address {
