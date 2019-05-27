@@ -16,7 +16,7 @@
 
         .container-span {
             margin:0;
-            padding:0 0 3% 0;
+            padding:0 0 1% 0;
             background-image: url("coffeeTable.png");
             background-repeat: no-repeat;
             background-position: top;
@@ -201,10 +201,11 @@
         .container.sections {
             padding: 0;
             margin: 0;
+            background-color: rgba(255, 255, 255, 0.158);
         }
 
         .col-span {
-            margin:2vh 0 0 0;
+            margin:.5vh 0 0 0;
         }
 
         .footer {
