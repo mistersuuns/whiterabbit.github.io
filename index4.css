@@ -8,11 +8,11 @@
                 background-size: cover;
             }
     
-
+*/ 
         * {
 			border: solid black .5px;
         }
-*/ 
+
 
         .container-span {
             margin:0;
@@ -25,17 +25,37 @@
             font-family: "Avenir";
             position: relative;
         }
+        @media (max-width: 700px) and (min-width: 525px) {
+            .container-span {
+                padding: 0 0 10% 0;
+            }
+        }
+        @media (max-width: 850px) and (min-width: 701px) {
+            .container-span {
+                padding: 0 0 40% 0;
+            }
+        }
 
+        @media (max-width: 2000px) and (min-width: 851px) {
+            .container-span {
+                padding: 0 0 60% 0;
+            }
+        }
 
-        @media (min-width: 375px) and (max-width: 440px) {
+        @media (max-width: 440px) and (min-width: 376px) {
             p {
                 font-size: 92%;
                 line-height: 92%;
                 letter-spacing: 95%;
             }
         }
-
-
+        @media (max-width: 375px) and (min-width: 250px) {
+            p {
+                font-size: 80%;
+                line-height: 80%;
+                letter-spacing: 90%;
+            }
+        }
 
         .col-12.d-flex.justify-content-end { 
             padding: 0;
