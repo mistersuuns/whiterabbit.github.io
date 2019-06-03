@@ -40,6 +40,9 @@
             .container-span {
                 padding: 0 0 60% 0;
             }
+            p {
+                padding-top: 18vh;
+            }
         }
 
         @media (max-width: 440px) and (min-width: 376px) {
@@ -237,7 +240,7 @@
         }
 
         .col-span {
-            margin:.5vh 0 0 0;
+            margin:.1vh 0 0 0;
         }
 
         .footer {
