@@ -13,22 +13,21 @@
 			border: solid grey .2px;
         }
 
-.container-span {
+.container-span.table {
     margin:0;
     padding:0;
     background: url("table1.jpg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
-    overflow: visible;
     font-family: "Avenir";
     position: relative;
+    color: white;
     }
     .col-12.d-flex.justify-content-end { 
         padding: 0;
         }
         .nav-item {
-            font-family: "Avenir";
             list-style: none;
             font-size: 3vh;
             letter-spacing: .05vh;
@@ -40,26 +39,23 @@
         src: url(Butler_Black.otf);
         }
     .row.text {
-        color: white;
-        background-color: none;
+        padding: 0;
         margin: 0;
-        padding: 0; 
-        }
+    }
         #plsEnjoy {
             font-family: ButlerBlack;
-            color: white;
-            font-size: 7.5vw;
+            font-size: 8vw;
             font-weight: bold;
             letter-spacing: 0.015vw;
             line-height: 6vw;
-            padding: 7vw 0 0 4vw;
+            padding: 6vw 0 0 3vw;
             margin: 0;
         }
         #Logo {
-            min-width: 15vw;
-            max-width: 18vw;
-            padding: 2vw 0 0 0;
-            margin:  0;
+            min-width: 10vw;
+            max-width: 14vw;
+            padding: 1vw 0 0 2vw;
+            margin: 0;
         }
     .row.ethos1 {
         margin: 4vw 0 0 0;
@@ -69,23 +65,34 @@
         background-color: none;
         margin: 0 0 1.25vh 0;
         padding: 0 0 0 12vw;
-        font-size: 1em;
+        font-family: "Avenir";
+        font-size: .9em;
         font-weight: 175;
         letter-spacing: 0.017em;
         line-height: 1.1em;
         }
+    .col-12-span.ethos1 {
+        color: white;
+        background-color: none;
+        margin: 0 2vh 1.25vh 0;
+        padding: 0 5vh 0 12vw;
+        font-size: .9em;
+        font-weight: 175;
+        letter-spacing: 0.017em;
+        line-height: 1.1em;
+    }
     .row.ethos2 {
         margin: 2vh 0 0 0;
     }
-    .col-6.ethos2 {
-        color: white;
-        margin: 0 0 1.25vh 0;
-        padding: 0 0 0 12vw;
-        font-size: 1em;
-        font-weight: 175;
-        letter-spacing: 0.017em;
-        line-height: 1.1em;
-        }
+        .col-6.ethos2 {
+            color: white;
+            margin: 0 0 1.25vh 0;
+            padding: 0 0 0 12vw;
+            font-size: 1em;
+            font-weight: 175;
+            letter-spacing: 0.017em;
+            line-height: 1.1em;
+            }
 /*
         @media (min-width:1030px) {
             .responsive-embed {
@@ -96,7 +103,7 @@
             padding: 0 0 0 12%;
             text-align: right;
         }
-*/
+
 
         @keyframes fade-in {
             0% {
@@ -106,7 +113,7 @@
                 opacity: 1;
             }
         }
-/*
+
         .vertical {
             transform-origin: right;
             transform: rotate(-90deg) translateX(98%) translateY(-30%);
@@ -142,7 +149,7 @@
             }
         }
 */
-    
+
         #address {
             letter-spacing: 0.15vh;
             padding: 0 2vw 0 4vw;
@@ -153,19 +160,22 @@
             font-size: 0.7em;
             vertical-align: middle;
         }
-        #ethos3 {
-            display: none;
+    
+    .container-span.study {
+        background: url("working.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
         }
-????????? {
-    margin:0;
-    padding:0;
-    background: url("latte.jpg");
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-    overflow: visible;
-    position: relative;
+    .container-span.menu {
+        background: url("latteLeft2.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
     }
+    #menu {
+        width: 80%;
+        float: right;
+    }
+
 .footer {
             bottom: 0;
             margin: 0;
