@@ -1,4 +1,4 @@
-/*        
+    /*        
     .parallax {
                 height: 100%;
                 overflow: visible;
@@ -7,9 +7,10 @@
                 background-repeat: no-repeat;
                 background-size: cover;
             }
-  */  
-
+       
+    
         * {
+<<<<<<< HEAD
 			border: solid grey .2px;
         }
 
@@ -49,8 +50,47 @@
             letter-spacing: 0.015vw;
             line-height: 6vw;
             padding: 6vw 0 0 3vw;
-            margin: 0;
+=======
+			border: solid black .5px;
+		}
+    */  
+        
+        
+        .header {
+            justify-content: center;
+            
+            
+            transform: translateX(.75%);
         }
+
+        .nav {
+            margin: 3vh 4vh 0 4vh;
+            color: white;
+            font-size: 2.75vh;
+            font-weight: 300;
+            border: 0px;
+        }
+
+        .body {
+            background-image: url("coffeetable.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: ;
+            overflow: visible;
+            font-family: "Avenir";
+            object-fit: cover;
+            padding: 0;
+            margin: 0;
+            position: relative;
+        }
+
+        .text {
+            color: white;
+>>>>>>> parent of 901fe95... updatesJune3
+            margin: 0;
+            
+        }
+<<<<<<< HEAD
         #Logo {
             min-width: 10vw;
             max-width: 14vw;
@@ -94,16 +134,28 @@
             line-height: 1.1em;
             }
 /*
+=======
+
+>>>>>>> parent of 901fe95... updatesJune3
         @media (min-width:1030px) {
             .responsive-embed {
-                padding: 5% 0 0 0;
+                padding-top: 5%;
             }
         }
-        .logoWRCC {
-            padding: 0 0 0 12%;
-            text-align: right;
+
+        .white {
+            margin: 0;
+            padding: 0;
         }
 
+        .logoWRCC {
+            padding-left: 12%;
+            text-align: right;
+        }
+<<<<<<< HEAD
+
+=======
+>>>>>>> parent of 901fe95... updatesJune3
 
         @keyframes fade-in {
             0% {
@@ -113,6 +165,21 @@
                 opacity: 1;
             }
         }
+<<<<<<< HEAD
+=======
+ 
+        .Logo {
+            padding-top: ;
+            padding-bottom: 1vh;
+            min-width: 8vw;
+            max-width: 20vw;
+        }
+
+        .section {
+            height: 30vh;
+            justify-content: center;
+        }
+>>>>>>> parent of 901fe95... updatesJune3
 
         .vertical {
             transform-origin: right;
@@ -122,7 +189,6 @@
             animation-delay: 5s;
             animation: fade-in 5s;
         }
-
 
         .text {
             padding-left: 7.5%;
@@ -148,18 +214,44 @@
                 max-width: 100em;
             }
         }
+<<<<<<< HEAD
 */
+=======
+
+        @font-face {
+            font-family: ButlerBlack;
+            src: url(Butler_Black.otf);
+        }
+
+        #plsEnjoy {
+            font-family: ButlerBlack;
+            font-size: 8vh;
+            font-weight: bold;
+            letter-spacing: 0.015em;
+            line-height: 0.9em;
+            padding-top: .5em;
+        }
+
+        #ethos {
+            font-size: 0.9em;
+            line-height: 1.3;
+            margin-top: 7.5%;
+            margin-bottom: 7.5%;
+            max-width: 28em;
+        }
+>>>>>>> parent of 901fe95... updatesJune3
 
         #address {
-            letter-spacing: 0.15vh;
-            padding: 0 2vw 0 4vw;
-            margin: 0 0 0 0;
-            font-size: 2.5vh;
+            letter-spacing: 0.15em;
+            padding-bottom: 3em;
+            padding-right: 7.5%;
         }
+
         #train-station {
             font-size: 0.7em;
             vertical-align: middle;
         }
+<<<<<<< HEAD
     
     .container-span.study {
         background: url("working.jpg");
@@ -177,11 +269,23 @@
     }
 
 .footer {
+=======
+
+        .feed {
+            margin: none;
+            padding: none;
+        }
+
+        .footer {
+>>>>>>> parent of 901fe95... updatesJune3
             bottom: 0;
+            width: ;
             margin: 0;
+            background-image: ;
             font-family: "Avenir";
             padding: 2% 0 2% 0;
         }
+
         #icons {
             padding: 0 0 .2% 0;
             margin: 0;
@@ -189,14 +293,17 @@
             display: flex;
             justify-content: center;
         }
+
         #instagram {
             font-size: 140%;
             color: black;
         }
+
         #facebook {
             font-size: 140%;
             color: black;
         }
+
         #email {
             padding: .2% 0 0 0;
             font-size: 90%;
@@ -204,21 +311,5 @@
             letter-spacing: 0.125em;
             display: flex;
             justify-content: center;
-        }
-/*container-span rules*/
 
-        @media (max-width: 580px) {
-            .row.ethos2{
-                display: none;
-            }
-            #ethos3{
-                display: block;
-            }
         }
-        @media (min-width: 486px) {
-            .row.ethos1 {
-            margin: 20vw 0 0 0;
-            padding: 0;
-            }
-        }
-
