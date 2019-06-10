@@ -14,14 +14,13 @@
 		* {
 			border: solid black .5px;
 		}
-
 	    */
         .header {
             padding: 2vw;
         }
         .body {
             font-family: "Avenir";
-            padding: 0;
+            padding: 10vw;
             margin: 0;
             position: relative;
             min-height: 100vh;
@@ -39,7 +38,6 @@
                 opacity: 1;
             }
         }
-
         img {
             min-width: 10vw;
             max-width: 28vw;
