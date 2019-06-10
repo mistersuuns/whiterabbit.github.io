@@ -16,7 +16,7 @@
 
         .container-span {
             margin:0;
-            padding:0 0 0 0;
+            padding:0;
             background-image: url("table1.jpg");
             background-repeat: no-repeat;
             background-position: top;
@@ -27,7 +27,7 @@
         }
         @media (max-width: 700px) and (min-width: 525px) {
             .container-span {
-                padding: 0 0 10% 0;
+                padding: 0 0 0 0;
             }
         }
         @media (max-width: 850px) and (min-width: 701px) {
@@ -38,7 +38,7 @@
 
         @media (max-width: 2000px) and (min-width: 851px) {
             .container-span {
-                padding: 0 0 60% 0;
+                padding: 0 0 30% 0;
             }
         }
 
@@ -170,17 +170,15 @@
             padding: 1.75vw 0 0 2vw;
             margin: 0 0 4vh 0;
         }
-
         #Logo {
             min-width: 8vw;
             max-width: 9vw;
             padding: 1vh 1vw 0 0;
             margin: 0;
         }
-
         #ethos.row {
             color: white;
-            font-size: 1.9vh;
+            font-size: 2.2vh;
             font-weight: 100;
             line-height: 2.3vh;
             letter-spacing: .03vh;
@@ -188,16 +186,14 @@
             padding: 8vh 0 0 17.5vw;;
             max-width: 47.5vw;
         }
-
         .col-6.ethos {
             padding: 0;
             margin: 0;
         }
-
         @media (max-width: 885px) {
             #ethos.row {
                 margin: 0;
-                padding: 0 0 0 2vh;
+                padding: 0;
             }
         }
 
