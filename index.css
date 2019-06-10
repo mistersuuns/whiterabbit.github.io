@@ -25,6 +25,7 @@
             margin: 0;
             position: relative;
             min-height: 100vh;
+            width: 100vh;
         }
         .logoWRCC {
             padding-left: 12%;
