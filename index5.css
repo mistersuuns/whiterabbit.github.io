@@ -13,21 +13,22 @@
 			border: solid grey .2px;
         }
 
-.container-span.table {
+.container-span {
     margin:0;
     padding:0;
     background: url("table1.jpg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
+    overflow: visible;
     font-family: "Avenir";
     position: relative;
-    color: white;
     }
     .col-12.d-flex.justify-content-end { 
         padding: 0;
         }
         .nav-item {
+            font-family: "Avenir";
             list-style: none;
             font-size: 3vh;
             letter-spacing: .05vh;
@@ -39,24 +40,27 @@
         src: url(Butler_Black.otf);
         }
     .row.text {
-        padding: 0;
+        color: white;
+        background-color: none;
         margin: 0;
-    }
+        padding: 0; 
+        }
         #plsEnjoy {
             font-family: ButlerBlack;
-            font-size: 8vw;
+            color: white;
+            font-size: 7.5vw;
             font-weight: bold;
             letter-spacing: 0.015vw;
             line-height: 6vw;
-            padding: 6vw 0 0 3vw;
+            padding: 7vw 0 0 4vw;
             margin: 0;
             
         }
         #Logo {
-            min-width: 10vw;
-            max-width: 14vw;
-            padding: 1vw 0 0 2vw;
-            margin: 0;
+            min-width: 15vw;
+            max-width: 18vw;
+            padding: 2vw 0 0 0;
+            margin:  0;
         }
     .row.ethos1 {
         margin: 4vw 0 0 0;
@@ -66,21 +70,23 @@
         background-color: none;
         margin: 0 0 1.25vh 0;
         padding: 0 0 0 12vw;
-        font-family: "Avenir";
-        font-size: .9em;
+        font-size: 1em;
         font-weight: 175;
         letter-spacing: 0.017em;
         line-height: 1.1em;
         }
-    .col-12-span.ethos1 {
+    .row.ethos2 {
+        margin: 2vh 0 0 0;
+    }
+    .col-6.ethos2 {
         color: white;
-        background-color: none;
-        margin: 0 2vh 1.25vh 0;
-        padding: 0 5vh 0 12vw;
-        font-size: .9em;
+        margin: 0 0 1.25vh 0;
+        padding: 0 0 0 12vw;
+        font-size: 1em;
         font-weight: 175;
         letter-spacing: 0.017em;
         line-height: 1.1em;
+<<<<<<< HEAD
     }
     .row.ethos2 {
         margin: 2vh 0 0 0;
@@ -95,11 +101,24 @@
             line-height: 1.1em;
             }
 
+=======
+        }
+/*
+>>>>>>> parent of 5592e0a... may8
         @media (min-width:1030px) {
             .responsive-embed {
                 padding-top: 5%;
             }
         }
+<<<<<<< HEAD
+=======
+        .logoWRCC {
+            padding: 0 0 0 12%;
+            text-align: right;
+        }
+*/
+
+>>>>>>> parent of 5592e0a... may8
         @keyframes fade-in {
             0% {
                 opacity: 0;
@@ -108,6 +127,7 @@
                 opacity: 1;
             }
         }
+<<<<<<< HEAD
         .Logo {
             padding-top: ;
             padding-bottom: 1vh;
@@ -120,6 +140,9 @@
             justify-content: center;
         }
 
+=======
+/*
+>>>>>>> parent of 5592e0a... may8
         .vertical {
             transform-origin: right;
             transform: rotate(-90deg) translateX(98%) translateY(-30%);
@@ -153,9 +176,14 @@
                 max-width: 100em;
             }
         }
+<<<<<<< HEAD
 
 
 
+=======
+*/
+    
+>>>>>>> parent of 5592e0a... may8
         #address {
             letter-spacing: 0.15em;
             padding: 0 7.5% 0 3%;
@@ -165,6 +193,7 @@
             font-size: 0.7em;
             vertical-align: middle;
         }
+<<<<<<< HEAD
     
     .container-span.study {
         /*
@@ -189,8 +218,21 @@
     #menu {
         width: 80%;
         float: right;
+=======
+        #ethos3 {
+            display: none;
+        }
+????????? {
+    margin:0;
+    padding:0;
+    background: url("latte.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    overflow: visible;
+    position: relative;
+>>>>>>> parent of 5592e0a... may8
     }
-
 .footer {
             bottom: 0;
             width: ;
