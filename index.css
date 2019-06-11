@@ -26,7 +26,7 @@
             font-family: "Avenir";
         }
                   #logo {
-                    width: 34vw;
+                    width: 30vw;
                     display: flex;
                     margin: auto;
                 }
@@ -50,9 +50,9 @@
             }
                 #plsEnjoy {
                     font-family: ButlerBlack;
-                    font-size: 10vw;
+                    font-size: 9vw;
                     font-weight: bold;
-                    letter-spacing: 0.015em;
+                    letter-spacing: 0.01em;
                     line-height: 0.8em;
                     margin: 3vw 0;
                 }
