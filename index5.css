@@ -24,10 +24,6 @@
     position: relative;
     top: 0;
     }
-    .col-12 { 
-        display: flex; 
-        padding: 0;
-        }
         .nav-item {
             list-style: none;
             font-size: 3vh;
@@ -46,13 +42,10 @@
             letter-spacing: 0.015vw;
             line-height: 6vw;
             padding: 6vw 0 0 3vw;
-            margin: 0; 
         }
         #Logo {
             min-width: 10vw;
             max-width: 14vw;
-            padding: 1vw 0 0 2vw;
-            margin: 0;
         }
     .row.ethos1 {
         margin: 4vw 0 0 0;
@@ -68,7 +61,7 @@
         letter-spacing: 0.017em;
         line-height: 1.1em;
         }
-    .col-12-span.ethos1 {
+    .col-span-12.ethos1 {
         color: white;
         background-color: none;
         margin: 0 2vh 1.25vh 0;
@@ -78,8 +71,7 @@
         letter-spacing: 0.017em;
         line-height: 1.1em;
     }
-    .row.ethos2 {
-        
+    .row.ethos2 {  
         margin: 2vh 0 0 0;
     }
         .col-6.ethos2 {
@@ -91,7 +83,6 @@
             letter-spacing: 0.017em;
             line-height: 1.1em;
             }
-
         @media (min-width:1030px) {
             .responsive-embed {
                 padding-top: 5%;
@@ -106,17 +97,9 @@
             }
         }
         .Logo {
-            padding-top: ;
-            padding-bottom: 1vh;
             min-width: 8vw;
             max-width: 20vw;
         }
-
-        .section {
-            height: 30vh;
-            justify-content: center;
-        }
-
         .vertical {
             transform-origin: right;
             transform: rotate(-90deg) translateX(98%) translateY(-30%);
@@ -125,7 +108,6 @@
             animation-delay: 5s;
             animation: fade-in 5s;
         }
-
         .text {
             padding-left: 7.5%;
             padding-right: 5%;
@@ -133,13 +115,11 @@
             animation-delay: 5s;
             animation: fade-in 5s;
         }
-
         @media (max-width: 1030px) {
             .text {
                 border-left: 0px;
             }
         }
-
         @media (max-width: 355px) {
             .logoWRCC {
                 padding: auto;
@@ -150,33 +130,27 @@
                 max-width: 100em;
             }
         }
-
-
-
         #address {
             letter-spacing: 0.15em;
             padding: 0 7.5% 0 3%;
         }
-
         #train-station {
             font-size: 0.7em;
             vertical-align: middle;
         }
-    
     .container-span.study {
         font-family: "Avenir";
         background: url("working.jpg");
         background-repeat: no-repeat;
         background-size: 100%;
         }
-
-    .col-span.study {
-        padding: 0;
-        width: 100vw;
-    }
-    #study {
-        width: 100%;
-    }
+        .col-span.study {
+            padding: 0;
+            width: 100vw;
+        }
+        #study {
+            width: 100%;
+        }
     .container-span.menu {
         font-family: "Avenir";
         background: url("latteLeft2.jpg");
@@ -187,17 +161,11 @@
         width: 80%;
         float: right;
     }
-
 .footer {
     font-family: "Avenir";
     bottom: 0;
-            width: ;
-            margin: 0;
-            background-image: ;
-            font-family: "Avenir";
-            padding: 2% 0 2% 0;
+        padding: 2% 0;
         }
-
         #icons {
             padding: 0 0 .2% 0;
             margin: 0;
@@ -205,17 +173,14 @@
             display: flex;
             justify-content: center;
         }
-
         #instagram {
             font-size: 140%;
             color: black;
         }
-
         #facebook {
             font-size: 140%;
             color: black;
         }
-
         #email {
             padding: .2% 0 0 0;
             font-size: 90%;
@@ -223,5 +188,4 @@
             letter-spacing: 0.125em;
             display: flex;
             justify-content: center;
-
         }
