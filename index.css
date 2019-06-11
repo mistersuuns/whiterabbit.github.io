@@ -41,7 +41,7 @@
             }
             .col-md-6.text {
                 padding: 4vw;
-                border-left: black solid thin;
+                border-left: black solid medium;
             }
             @media (max-width: 768px) {
                 .col-md-6.text {
