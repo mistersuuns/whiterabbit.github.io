@@ -1,12 +1,4 @@
         /*
-            .parallax {
-                height: 100%;
-                overflow: visible;
-                background-attachment: fixed;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-            }
 		* {
 			border: solid black .5px;
         }
@@ -51,7 +43,6 @@
                 #plsEnjoy {
                     font-family: ButlerBlack;
                     font-size: 9vw;
-                    font-weight: bold;
                     letter-spacing: 0.01em;
                     line-height: 0.8em;
                     margin: 3vw 0;
