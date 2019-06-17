@@ -1,22 +1,15 @@
-    /*        
-    .parallax {
-                height: 100%;
-                overflow: visible;
-                background-attachment: fixed;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-            } 
-     */ 
+    /*
         * {
 			border: solid grey .2px;
         }
+    */ 
 body {
     background: url("table1.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: 54% top;        }
+    background-position: 54% top;        
+}
     .container-span.table {
         color: white;
         font-family: "Avenir";
@@ -25,80 +18,75 @@ body {
         }
         .nav-item {
             list-style: none;
-            font-size: 3vh;
-            letter-spacing: .1vw;
-            padding: 2vw;
+            font-size: 3.5vh;
+            letter-spacing: .06vw;
+            padding: 2vw 0vw 2vw 4vw;
         }
     .row-span.spacer1 { padding: 0; margin: 0;
             height: 1vw;
             font-size: 1vw;
-            visibility: ; }
+            visibility: hidden; }
     .row.text { padding: 0; margin: 0; }
     @font-face {
         font-family: Butler-Black;
         src: url(Butler_Black.otf);
     } 
     .col-4.enjoy {
-            padding: 3vw 0 0 0;
+            padding: 3vw 0 0 2vw;
             font-family: Butler-Black;
             font-size: 10vw;
             letter-spacing: 0.01em;
             line-height: 9vw;
         }
         .col-2.logo {
-            padding: 0;
+            padding: 0 0 0 1vw;
         }
         #logo {
-            min-width: 10vw;
+            min-width: 11vw;
             max-width: 14vw;
         }
     .row-span.spacer2 { padding: 0; margin: 0;
         height: 18vh;
         font-size: 1vw;
-        visibility: ; }
+        visibility: hidden; }
     .row.ethos { padding: 0; margin: 0;
         letter-spacing: 0.018em;
         line-height: 1.15em;
         }
-    #events {
-        width: 100vw;
-    }
-    #art {
-        width: 100vw;
-    }
     .col-6.ethos {
-        padding: 0 0 0 3vw;
+        padding: 0 0 0 6vw;
         }
     .col-6.address {
             letter-spacing: 0.15em;
-            padding: 51vh 0 0 3vw;
+            padding: 0 0 2vw 2vw;
+            margin: 0;
         }
         #train-station {
             font-size: 0.7em;
             vertical-align: middle;
         }
-/*
-    @media (max-aspect-ratio: 375/667) {
-        #ethos1 {display: none}
-        #ethos2 {display: none}
-        .row-span.spacerA {display: none}
-        .row-span.spacer3 {height: width*1877/1419}
-    }
-    @media (max-aspect-ratio: 426/711) {
-        #ethos2 {display: none}
-    }
-*/
+    #events {
+            width: 100vw;
+        }
+    #art {
+            width: 100vw;
+        }
     #working {
         width: 100vw;
         }
     #menu {
         width: 100vw
     }
-.footer {
+footer {
+    background: url("adrianConstruct.png");
+    background-size: cover;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
     font-family: "Avenir";
-    bottom: 0;
-        padding: 2% 0;
-        }
+    padding: 2% 0;
+    }
         #icons {
             padding: 0 0 .2% 0;
             margin: 0;
@@ -108,16 +96,16 @@ body {
         }
         #instagram {
             font-size: 140%;
-            color: white;
+            color: black;
         }
         #facebook {
             font-size: 140%;
-            color: white;
+            color: black;
         }
         #email {
             padding: .2% 0 0 0;
-            font-size: 90%;
-            color: white;
+            font-size: 1.5vw;
+            color: black;
             letter-spacing: 0.125em;
             display: flex;
             justify-content: center;
