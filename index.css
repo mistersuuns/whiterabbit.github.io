@@ -3,11 +3,11 @@
 			border: solid grey .2px;
         }
     */ 
-    body {background: url("table1.jpg");
+    .bg {background: url("table1.jpg");
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
-        background-position: center center;}
+        background-position: 54% center;}
         .container-span.table {color: white;
             font-family: "Avenir";
             font-size: 2.5vh;
