@@ -5,14 +5,15 @@
     */ 
     .bg {background: url("table1.jpg");
         width: 100%;
-        height: 170vh;
+        height: 100vh;
         background-size: 100% auto;
         z-index: -1;
         position: fixed;
         background-repeat: no-repeat;
-        background-position: 54% center;}
-    @media (max-width: 1150px) {
-        .bg {background-size: auto 103vh;}
+        background-position: 54% -30px;}
+    @media (max-width: 425px) {
+        .bg {background-size: auto 103vh;
+        background-position: center top}
     }
         .container-span.table {color: white;
             font-family: "Avenir";
