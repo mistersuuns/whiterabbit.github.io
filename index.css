@@ -3,8 +3,12 @@
 			border: solid grey .2px;
         }
     */ 
+    html {
+        font-family: Avenir;
+        font-size: 2.5em;
+    }
     .bg {background: url("table1.jpg");
-        width: 100%;
+        width: 100vw;
         height: 100vh;
         background-size: 100% auto;
         z-index: -1;
@@ -12,9 +16,13 @@
         background-repeat: no-repeat;
         background-position: 54% -30px;}
     @media (max-width: 425px) {
-        .bg {background-size: auto 103vh;
+        .bg {background-size: 100vw 103vh;
         background-position: center top}
+        html {
+            font-size:1.75em;
+        }
     }
+
         .container-span.table {color: white;
             font-family: "Avenir";
             font-size: 2.5vh;
@@ -59,7 +67,7 @@
         #menu {
             width: 100vw
         }
-    footer {
+    .footer {
         background: url("adrianConstruct.png");
         background-size: cover;
         width: 100vw;
@@ -77,16 +85,16 @@
                 justify-content: center;
             }
             #instagram {
-                font-size: 140%;
+                font-size: 100%;
                 color: black;
             }
             #facebook {
-                font-size: 140%;
+                font-size: 100%;
                 color: black;
             }
             #email {
                 padding: .2% 0 0 0;
-                font-size: 2.5vh;
+                font-size: .75em;
                 font-weight: 475;
                 color: black;
                 letter-spacing: 0.1em;
