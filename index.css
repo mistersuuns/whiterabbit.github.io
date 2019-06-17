@@ -32,21 +32,21 @@
             src: url(Butler_Black.otf);
         } 
         .col-4.enjoy {
-                padding: 3vw 0 0 2vw;
+                padding: 6vw 0 0 2vw;
                 font-family: Butler-Black;
                 font-size: 10vw;
                 letter-spacing: 0.01em;
                 line-height: 9vw;
             }
-            .col-2.logo {
-                padding: 0 0 0 1vw;
+        .col-2.logo {
+                padding: 3vw 0 0 1vw;
             }
             #logo {
                 min-width: 11vw;
                 max-width: 14vw;
             }
         .row-span.spacer2 { padding: 0; margin: 0;
-            height: 18vh;
+            height: 13vh;
             font-size: 1vw;
             visibility: hidden; }
         .row.ethos { padding: 0; margin: 0;
