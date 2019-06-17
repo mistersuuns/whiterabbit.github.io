@@ -61,7 +61,10 @@ body {
         line-height: 1.15em;
         }
     #events {
-        width: 100%;
+        width: 100vw;
+    }
+    #art {
+        width: 100vw;
     }
     .col-6.ethos {
         padding: 0 0 0 3vw;
