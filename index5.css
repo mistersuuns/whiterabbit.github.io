@@ -11,15 +11,17 @@
         * {
 			border: solid grey .2px;
         }
+body {
+    background: url("table1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 54% top;        }
 .container-span.table {
     color: white;
-    font-family: Avenir;
-    font-size: 2.45vh;
-    background: url("table1.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    position: relative;
-    top: 0;
+    font-family: "Avenir";
+    font-size: 2.5vh;
+    font-weight: 100;
     }
         .nav-item {
             list-style: none;
@@ -28,24 +30,16 @@
             padding: 2vw;
         }
     .row-span.spacer1 { padding: 0; margin: 0;
-    font-size: 2vw;
-    visibility: hidden; }
-    .row.text { padding: 0; margin: 0; }
-    .row-span.spacer2 { padding: 0; margin: 0;
-    font-size: 7vw;
-    visibility: hidden; }
-    #spacer { padding: 0; margin: 0;
-    font-size: 1vw;
-    visibility: hidden; }
-    .row.ethos { padding: 0; margin: 0; }
-    } 
+            height: 1vw;
+            font-size: 1vw;
+            visibility: ; }
+    .row.text { padding: 0; margin: 0; }}
     @font-face {
-        font-family: ButlerBlack;
+        font-family: Butler-Black;
         src: url(Butler_Black.otf);
-        font-weight: 400;
     } 
         #enjoy {
-            font-family: ButlerBlack;
+            font-family: Butler-Black;
             font-size: 10vw;
             letter-spacing: 0.01em;
             line-height: 9vw;
@@ -57,23 +51,46 @@
             min-width: 10vw;
             max-width: 14vw;
         }
-    .ethos {
-        letter-spacing: 0.017em;
-        line-height: 1.1em;
+    .row-span.spacer2 { padding: 0; margin: 0;
+        height: 18vh;
+        font-size: 1vw;
+        visibility: ; }
+    .row.ethos { padding: 0; margin: 0;
+        letter-spacing: 0.018em;
+        line-height: 1.15em;
         }
-    #p {
-        padding: 0 0 0 7vw;
-    }
+    .col-6.ethos {
+        padding: 0 0 0 3vw;
+        }
     .col-6.address {
             letter-spacing: 0.15em;
-            padding: 0 0 0 3vw;
+            padding: 51vh 0 0 3vw;
         }
+    #address {
+        padding: 
+    }
         #train-station {
             font-size: 0.7em;
             vertical-align: middle;
         }
-    .container-span.study {
+    .row-span.spacer6 { padding: 0; margin: 0;
+        height: 55vw;
+        font-size: 1vw;
+    }
+/*
+    @media (max-aspect-ratio: 375/667) {
+        #ethos1 {display: none}
+        #ethos2 {display: none}
+        .row-span.spacerA {display: none}
+        .row-span.spacer3 {height: width*1877/1419}
+    }
+    @media (max-aspect-ratio: 426/711) {
+        #ethos2 {display: none}
+    }
+*/
+    .container-span.community {
         font-family: "Avenir";
+        font-size: 2.45vh;
         background: url("working.jpg");
         background-repeat: no-repeat;
         background-size: 100%;
