@@ -43,11 +43,17 @@
         .container-span.menuLatte {
             display: none;
         }
+        #browserMenu {
+            display: none;
+        }
     }
     @media (min-width: 426px) {
         .container-span.menu {
             display: none;}
         .container-span.latte {
+            display: none;
+        }
+        #mobileMenu {
             display: none;
         }
     }
