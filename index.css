@@ -4,8 +4,9 @@
         }
     */ 
     html {
-        font-family: Avenir;
-        font-size: 2.5em;
+        font-family: "Avenir";
+        font-size: 1.25em;
+        font-weight: 100;
     }
     .bg {background: url("table1.jpg");
         width: 100%;
@@ -19,16 +20,16 @@
         .bg {background-size: 100vw 103vh;
         background-position: center top}
         html {
-            font-size:1.75em;
+            font-family:"Avenir";
+            font-size:1em;
         }
     }
-
-        .container-span.table {color: white;
+        .container-span.table {
+            color: white;
             font-family: "Avenir";
-            font-size: 2.5vh;
             font-weight: 100;}
             .nav-item {list-style: none;
-                font-size: 3vh;
+                font-size: 1.15em;
                 letter-spacing: .06vw;
                 padding: 2vw 0vw 2vw 4vw;}
         .row-span.spacer1 {padding: 0; margin: 0;
@@ -94,7 +95,7 @@
             }
             #email {
                 padding: .2% 0 0 0;
-                font-size: .75em;
+                font-size: .95em;
                 font-weight: 475;
                 color: black;
                 letter-spacing: 0.1em;
