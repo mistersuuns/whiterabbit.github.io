@@ -41,10 +41,16 @@
             padding: 0 0 0 6vw;
         }
         .container-span.menuLatte {
-            display: none; 
+            display: none;
         }
     }
-
+    @media (min-width: 426px) {
+        .container-span.menu {
+            display: none;}
+        .container-span.latte {
+            display: none;
+        }
+    }
     .container-span.table {
         color: white;
         font-family: "Avenir";
@@ -114,17 +120,12 @@
 
     .col-6.address {
         letter-spacing: 0.15em;
-        line-height: 4vh;
+        line-height: 1.35em;
         padding: 0 0 2vw 2vw;
         margin: 0;
         font-size: 1.25em;
     }
-    .container-span.latte {
-        display: none;
-    }
-    .container-span.menuNoBack {
-        display: none;
-    }
+
     #train-station {
         font-size: 0.7em;
         vertical-align: middle;
