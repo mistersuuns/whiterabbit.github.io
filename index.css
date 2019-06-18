@@ -142,12 +142,12 @@
         background: url("wood.png");
         background-size: 100%;
         font-family: "Avenir";
-        padding: 2% 0;
+        padding: 0;
     }
 
     #icons {
-        padding: 0 0 .2% 0;
-        margin: 0;
+        padding: 1vw 0;
+        margin: 1vw 0;
         width: 100vw;
         display: flex;
         justify-content: center;
