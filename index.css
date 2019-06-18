@@ -37,7 +37,7 @@
             font-size: 1.1em;
             line-height: 3vh;
         }
-        .col-6.ethos {
+        #ethos {
             padding: 0 0 0 6vw;
         }
         .container-span.menuLatte {
@@ -109,7 +109,7 @@
     }
 
     .col-6.ethos {
-        padding: 0 0 0 20vw;
+        padding: 0 0 0 11vw;
     }
 
     .col-6.address {
