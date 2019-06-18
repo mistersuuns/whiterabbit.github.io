@@ -33,6 +33,10 @@
         .nav-item {
             font-size: 1.15em;
         }
+        .col-6.address {
+            font-size: 1.1em;
+            line-height: 3vh;
+        }
     }
 
     .container-span.table {
@@ -95,7 +99,7 @@
         padding: 0;
         margin: 0;
         letter-spacing: 0.018em;
-        line-height: 1.15em;
+        line-height: 1.2em;
     }
 
     .col-6.ethos {
@@ -104,8 +108,10 @@
 
     .col-6.address {
         letter-spacing: 0.15em;
+        line-height: 4vh;
         padding: 0 0 2vw 2vw;
         margin: 0;
+        font-size: 1.25em;
     }
 
     #train-station {
@@ -113,29 +119,12 @@
         vertical-align: middle;
     }
 
-    #events {
+    #photo {
         width: 100vw;
     }
-
-    #art {
-        width: 100vw;
-    }
-
-    #working {
-        width: 100vw;
-    }
-
-    #menu {
-        width: 100vw
-    }
-
-    .footer {
-        background: url("adrianConstruct.png");
-        background-size: cover;
-        width: 100vw;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: 50% bottom;
+    .footer {   
+        background: url("wood.png");
+        background-size: 100%;
         font-family: "Avenir";
         padding: 2% 0;
     }
