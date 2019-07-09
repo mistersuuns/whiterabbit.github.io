@@ -1,84 +1,92 @@
-    /*
-        * {
-			border: solid grey .2px;
-        }
+/*
+* {
+        border: solid black .2px;
+    }
     */
-    html {
+
+
+    @font-face {
         font-family: "Avenir";
-        font-size: 1.25em;
-        font-weight: 100;
+        src: url("AvenirLTStd-Book.otf");
     }
 
+
+    body {
+        color: white;
+        padding: 0;
+        margin: 0;
+    }
+
+    #row,
+    #col,
+    img,
+    #table,
+    #navbar,
+    #navbarCon,
+    #enjoy,
+    #ethos,
+    #address,
+    #menuLatte,
+    #latte,
+    #menu,
+    #community,
+    #events,
+    #us {
+        font-family: "Avenir";
+        margin: 0;
+        padding: 0;
+    }
+
+
+    /* background */
     .bg {
-        background: url("table1.jpg");
-        width: 100%;
-        height: 100vh;
-        background-size: 120% auto;
+        background: url("whiteTable.jpg");
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+        width: 100vw;
+        height: 100%;
+        margin: 0;
+        padding: 0;
         z-index: -1;
         position: fixed;
-        background-repeat: no-repeat;
-        background-position: 54% -120px;
     }
 
-    .nav-item {
-        list-style: none;
-        font-size: 1.6em;
-        letter-spacing: .06vw;
-        padding: 2vw;
+
+    /* nav */
+    #navbar {
+        background-color: rgba(51, 50, 50, .7);
+        width: 100vw;
+        position: fixed;
+        z-index: 1;
+        padding-top: .3vw;
+        padding-bottom: .3vw;
     }
 
-    @media (min-width: 426px) {
-        .container-span.menu {
-            display: none;}
-        .container-span.latte {
-            display: none;
-        }
-        #mobileMenu {
-            display: none;
-        }
-    }
-    @media (max-width: 425px) {
-        .bg {
-            background-size: auto 103vh;
-            background-position: center top;
-        }
-        html {
-            font-family: "Avenir";
-            font-size: 1em;
-        }
-        .nav-item {
-            font-size: 1.25em;
-        }
-        .col-6.address {
-            font-size: 1.1em;
-            line-height: 3vh;
-        }
-        #ethos {
-            padding: 0 0 0 6vw;
-        }
-        .container-span.menuLatte {
-            display: none;
-        }
-        #browserMenu {
-            display: none;
-        }
-    }
-    .container-span.table {
+    #navbar a {
         color: white;
-        font-family: "Avenir";
-        font-weight: 100;
-    }
-    .row-span.spacer1 {
-        padding: 0;
-        margin: 0;
-        height: 1vw;
-        font-size: 1vw;
-        visibility: hidden;
+        letter-spacing: .2vw;
     }
 
-    .row.text {
-        padding: 0;
-        margin: 0;
+    #navbar a:hover {
+        transition: .2s ease-in-out;
+    }
+
+    #nav {
+        color: white;
+        padding-left: 2.5vw;
+    }
+    #home{
+        width: 6vw;
+    }
+
+    /* nav */
+
+
+
+    #table {
+        color: white;
+        font-weight: 100;
     }
 
     @font-face {
@@ -86,89 +94,260 @@
         src: url(Butler_Black.otf);
     }
 
-    .col-4.enjoy {
-        padding: 6vw 0 0 2vw;
+    #enjoy {
         font-family: Butler-Black;
         font-size: 10vw;
         letter-spacing: 0.01em;
         line-height: 9vw;
     }
 
-    .col-2.logo {
-        padding: 3vw 0 0 1vw;
+    #ethos {
+        display: inline-block;
+        text-align: left;
+        font-weight: thin;
+        color: white;
     }
 
-    #logo {
-        min-width: 11vw;
-        max-width: 14vw;
-    }
-
-    .row-span.spacer2 {
-        padding: 0;
-        margin: 0;
-        height: 13vh;
-        font-size: 1vw;
-        visibility: hidden;
-    }
-
-    .row.ethos {
-        padding: 0;
-        margin: 0;
-        letter-spacing: 0.018em;
-        line-height: 1.2em;
-    }
-
-    .col-6.ethos {
-        padding: 0 0 0 11vw;
-    }
-
-    .col-6.address {
+    #address {
         letter-spacing: 0.15em;
         line-height: 1.35em;
-        padding: 0 0 2vw 2vw;
-        margin: 0;
-        font-size: 1.25em;
+        padding-bottom: 2vw;
+        padding-left: 2vw;
+        
     }
 
     #train-station {
-        font-size: 0.7em;
         vertical-align: middle;
     }
 
-    #photo {
-        width: 100vw;
-    }
-    .footer {   
-        background: url("wood.png");
-        background-size: 100%;
-        font-family: "Avenir";
-        padding: 0;
+
+    #amy, #adrian {
+        width: 100%;
+        height: 100%;
+        position: bottom left;
     }
 
-    #icons {
-        padding: 1vw 0;
-        margin: 1vw 0;
-        width: 100vw;
-        display: flex;
-        justify-content: center;
+
+
+    /*footer*/
+    #footer {
+        text-align: center;
+        background-color: rgba(51, 50, 50, .7);
+
     }
 
-    #instagram {
-        font-size: 100%;
-        color: black;
-    }
-
-    #facebook {
-        font-size: 100%;
-        color: black;
-    }
-
+    #facebook,
+    #instagram,
     #email {
-        padding: .2% 0 0 0;
-        font-size: .95em;
-        font-weight: 475;
-        color: black;
-        letter-spacing: 0.1em;
-        display: flex;
-        justify-content: center;
+        font-size: 2em;
+        padding-top: .2em;
+        padding-bottom: .2em;
     }
+
+    /*footer*/
+
+
+
+
+
+
+
+
+    /* BIG > */
+    /* > 1151 > */
+    @media (min-width: 1151px) {
+
+        .bg {
+            background-position: center 15%;
+        }
+
+        #nav {
+            font-size: 1.3em;
+        }
+
+
+        #ethos {
+            letter-spacing: 0.07em;
+            line-height: 1.2em;
+            font-size: 1.25em;
+            font-weight: 100;
+            padding-top: 8vw;
+            padding-left: 15vh;
+        }
+        /* BIG > */
+
+        #enjoy {
+            padding-top: 13vw;
+        }
+
+        #whiteRabbitImg {
+            width: 15vw;
+            padding-top: 10vw;
+        }
+        #address {
+            font-size: 1.8em;}
+        #train-station {
+            font-size: 0.7em;}
+
+        #menu {
+            display: none;
+        }
+
+        #latte {
+            display: none;
+        }
+
+        #mobileMenu {
+            display: none;
+        }
+    }
+
+    /* BIG > */
+    /* BIG > */
+
+
+
+    /* MID */
+    /* MID */
+    @media (max-width: 1150px) and (min-width:426px) {
+
+        .bg {
+            background-position: center 15%;
+        }
+
+
+        #nav {
+            font-size: 1.5em;
+        }
+
+        #enjoy {
+            padding-top: 18vw;
+        }
+
+        /* MID */
+
+        #whiteRabbitImg {
+            width: 12vw;
+            padding-top: 16vw;
+        }
+
+
+        #ethos {
+            letter-spacing: 0.07em;
+            line-height: 1.2em;
+            color: white;
+            font-size: 1.25em;
+            font-weight: 100;
+            padding-top: 10vw;
+            padding-left: 15vh;
+        }
+    #address {
+    font-size: 1.5em;}
+#train-station {
+    font-size: 0.6em;}
+        #menu {
+            display: none;
+        }
+
+        #latte {
+            display: none;
+        }
+
+        #mobileMenu {
+            display: none;
+        }
+    }
+
+    /* MID */
+    /* MID */
+
+
+
+    @media (max-width: 600px) and (min-width:426px) {
+        #ethos {
+            padding-left: 7vw;
+            font-size: 1.2em;
+        }
+        #address {
+            font-size: 1.4em;}
+        #train-station {
+            font-size: 0.5em;}
+
+    }
+
+
+
+    /* SMALL */
+    /* < 426 */
+    @media (max-width: 425px) {
+
+        .bg {
+            background: url("whiteTable.jpg");
+            background-repeat: no-repeat;
+            background-position: top center;
+            background-size: cover;
+            width: 100vw;
+            height: 100%;
+            z-index: -1;
+            position: fixed;
+        }
+
+        /* SMALL */
+
+        #nav {
+            font-size: 1.2em;
+            font-weight: 300;
+        }
+
+        #home{
+            width: 11vw;
+        }
+
+        /* SMALL */
+
+        #enjoy {
+            padding-top: 25vw;
+        }
+
+        #whiteRabbitImg {
+            width: 12vw;
+            padding-top: 23vw;
+        }
+
+        #ethos {
+            letter-spacing: 0.018em;
+            line-height: 1.2em;
+            color: white;
+            font-size: 1.2em;
+            font-weight: 100;
+            padding-top: 17vh;
+            padding-left: 3vw;
+            padding-bottom: 5vh;
+            padding-right: 2vw;
+        }
+
+        /* SMALL */
+
+        #address {
+            font-size: 1.2em;
+            line-height: 4vh;
+        }
+        #train-station {
+            font-size: 0.7em;}
+
+        /* SMALL */
+
+        #menuLatte {
+            display: none;
+        }
+
+        /* SMALL */
+
+        #browserMenu {
+            display: none;
+        }
+
+    }
+
+    /* SMALL */
+    /* SMALL */
