@@ -75,7 +75,10 @@
     #nav {
         color: white;
         padding-left: 2.5vw;
-        vertical-align: middle;
+        padding-top: .3em;
+        padding-bottom: .3em;
+
+        display: flex;
     }
     #home{
         width: 6vw;
