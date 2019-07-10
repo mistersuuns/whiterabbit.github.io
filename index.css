@@ -124,12 +124,17 @@
     }
 
 
-    #amy, #adrian {
-        width: 100%;
-        height: 100%;
+    #amy {
         position: bottom left;
     }
 
+    #adrian {
+        position: bottom right;
+    }
+
+    #pbjToastImg, #greenLatteImg {
+     
+    }
 
 
     /*footer*/
