@@ -59,7 +59,7 @@
         width: 100vw;
         position: fixed;
         z-index: 1;
-        padding-top: .3vw;
+        padding-top: 1vw;
         padding-bottom: .3vw;
     }
 
@@ -75,13 +75,13 @@
     #nav {
         color: white;
         padding-left: 2.5vw;
-        padding-top: .3em;
         padding-bottom: .3em;
-
-        display: flex;
+ 
     }
     #home{
         width: 6vw;
+        padding-left: 1.5vw;
+        padding-bottom: .5em;
     }
 
     /* nav */
@@ -138,7 +138,6 @@
         text-align: center;
         background-color: rgba(51, 50, 50, .7);
         padding-top: 1em;
-        padding-bottom: 1em;
     }
 
     #facebook,
