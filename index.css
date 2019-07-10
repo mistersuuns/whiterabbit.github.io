@@ -79,12 +79,10 @@
  
     }
     #home{
-        width: 6vw;
         margin-left: 3vw;
         padding-bottom: .5em;
         padding-top: .1em;
     }
-
     /* nav */
 
 
@@ -116,7 +114,7 @@
     #address {
         letter-spacing: 0.15em;
         line-height: 1.35em;
-        padding-bottom: 2vw;
+        padding-bottom: 20vw;
         padding-left: 2vw;
         
     }
@@ -167,6 +165,9 @@
 
         #nav {
             font-size: 1.3em;
+        }
+        #home {
+            height: 3em;
         }
 
 
@@ -222,6 +223,9 @@
 
         #nav {
             font-size: 1.5em;
+        }
+        #home {
+            height: 3em;
         }
 
         #enjoy {
@@ -304,7 +308,7 @@
         }
 
         #home{
-            width: 11vw;
+            height: 2em;
         }
 
         /* SMALL */
