@@ -79,7 +79,7 @@
  
     }
     #home{
-        margin-left: 3vw;
+        padding-left: 3vw;
         padding-bottom: .5em;
         padding-top: .1em;
     }
@@ -167,7 +167,7 @@
             font-size: 1.3em;
         }
         #home {
-            height: 3em;
+            height: 2.5em;
         }
 
 
@@ -225,7 +225,7 @@
             font-size: 1.5em;
         }
         #home {
-            height: 3em;
+            height: 2.25em;
         }
 
         #enjoy {
