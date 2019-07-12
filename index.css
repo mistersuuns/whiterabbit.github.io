@@ -215,7 +215,9 @@
         #mobileMenu {
             display: none;
         }
-
+        #avIce34 {
+            display:none;
+        }
 
 
     }
@@ -278,6 +280,11 @@
         #mobileMenu {
             display: none;
         }
+        #avIce34 {
+            display:none;
+        }
+
+
     }
 
     /* MID */
@@ -369,6 +376,10 @@
         /* SMALL */
 
         #browserMenu {
+            display: none;
+        }
+
+        #vert34 {
             display: none;
         }
 
