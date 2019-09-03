@@ -15,13 +15,12 @@
         color: white;
         padding: 0;
         margin: 0;
-        scroll-snap-points-y: repeat(300px);
-        scroll-snap-type: y mandatory;
+        /*scroll-snap-points-y: repeat(300px);
+        scroll-snap-type: y mandatory;*/
     }
-
-    .container-fluid {
+    /*.container-fluid {
         scroll-snap-align: start;
-    }
+    }*/
 
     #row,
     #col,
