@@ -15,16 +15,16 @@
         color: white;
         padding: 0;
         margin: 0;
-        /*scroll-snap-points-y: repeat(300px);
-        scroll-snap-type: y mandatory;*/
+        scroll-snap-type: y proximity;
     }
-    /*.container-fluid {
-        scroll-snap-align: start;
-    }*/
+
+    #space {
+        scroll-snap-align: none;
+    }
 
     #row,
     #col,
-    img,
+    #img,
     #table,
     #navbar,
     #navbarCon,
@@ -41,6 +41,18 @@
         font-family: "Avenir";
         margin: 0;
         padding: 0;
+    }
+
+    #address,
+    #frontCounter,
+    #menuLatte,
+    #latte,
+    #menu,
+    #summer,
+    #community,
+    #events,
+    #us, #art {
+        scroll-snap-align: start;
     }
 
 
@@ -123,7 +135,6 @@
         line-height: 1.35em;
         padding-bottom: 20vw;
         padding-left: 2vw;
-        
     }
 
     #train-station {
