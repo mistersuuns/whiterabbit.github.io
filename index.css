@@ -15,12 +15,8 @@
         color: white;
         padding: 0;
         margin: 0;
-        scroll-snap-type: y proximity;
     }
 
-    #space {
-        scroll-snap-align: none;
-    }
 
     #row,
     #col,
@@ -42,18 +38,6 @@
         margin: 0;
         padding: 0;
     }
-
-    /*#address,
-    #frontCounter,
-    #menuLatte,
-    #latte,
-    #menu,
-    #summer,
-    #community,
-    #events,
-    #us, #art {
-        scroll-snap-align: start;
-    }*/
 
 
 
