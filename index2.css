@@ -1,0 +1,452 @@
+/*
+* {
+        border: solid black .2px;
+    }
+    */
+
+@font-face {
+    font-family: "Avenir";
+    src: url("AvenirLTStd-Book.otf");
+}
+
+
+body {
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+
+#row,
+#col,
+#img,
+#top,
+#navbar,
+#navbarCon,
+#enjoy,
+#ethos,
+#address,
+#menuLatte,
+#latte,
+#menu {
+    font-family: "Avenir";
+    margin: 0;
+    padding: 0;
+}
+
+
+/* nav */
+#navbar {
+    background-color: rgba(51, 50, 50, .5);
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+    padding-top: 1vw;
+    padding-bottom: .3vw;
+}
+
+#navbar a {
+    color: white;
+    letter-spacing: .2vw;
+}
+
+#navbar a:hover {
+    transition: .2s ease-in-out;
+}
+
+#nav {
+    color: white;
+    padding-left: 2.5vw;
+}
+
+#home {
+    height: 1vh;
+    padding-right: .5em;
+    padding-bottom: .5em;
+    padding-left: 3vw;
+    filter: drop-shadow(0px 0px 1px white);
+}
+/* nav */
+
+/*SLIDESHOW*/
+/* background slides */
+.bg {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+    position: absolute;
+}
+
+.mySlides {
+    display: none;
+}
+
+/* dots 
+.dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease-in-out;
+}
+*/
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 3s;
+    animation: fade 10s ease-in-out;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: 1
+    }
+    to {
+        opacity: .9
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 1
+    }
+    to {
+        opacity: .9
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px
+    }
+}
+/*SLIDESHOW*/
+
+
+
+#top {
+    padding-bottom: 100vh;
+}
+
+@font-face {
+    font-family: Butler-Black;
+    src: url(Butler_Black.otf);
+}
+
+#enjoy {
+    font-family: Butler-Black;
+    font-size: 10vw;
+    letter-spacing: 0.01em;
+    line-height: 9vw;
+    filter: drop-shadow(0px 0px 20px black);
+}
+
+#whiteRabbitImg {
+    filter: drop-shadow(0px 0px 25px white);
+}
+
+#ethos {
+    display: inline-block;
+    text-align: left;
+    font-weight: thin;
+    color: white;
+    filter: drop-shadow(0px 0px 220px black);
+}
+
+#address {
+    letter-spacing: 0.15em;
+    line-height: 1.35em;
+    padding-bottom: 20vw;
+    padding-left: 2vw;
+    filter: drop-shadow(2px 2px 10px black);
+}
+
+#train-station {
+    vertical-align: middle;
+}
+
+#summer {
+    padding: 0;
+}
+
+
+/*footer*/
+#footer {
+    background-color: rgba(51, 50, 50, .7);
+    padding-top: 1em;
+    text-align: center;
+}
+#footText {
+    text-align: right;
+}
+#facebook,
+#instagram,
+#email, #footText {
+    font-size: 2em;
+}
+
+/*footer*/
+
+
+
+
+
+
+
+
+/* BIG > */
+/* > 1151 > */
+@media (min-width: 1151px) {
+
+    .bg {
+        background-position: ;
+    }
+
+
+    .space {
+        height: 1.25vh;
+    }
+
+    #nav {
+        font-size: 1.5em;
+    }
+
+    #home {
+        height: 2.5em;
+    }
+
+
+    #ethos {
+        letter-spacing: 0.07em;
+        line-height: 1.2em;
+        font-size: 1.25em;
+        font-weight: 100;
+        padding-top: 8vw;
+        padding-left: 15vh;
+    }
+
+    /* BIG > */
+
+    #enjoy {
+        padding-top: 13vw;
+    }
+
+    #whiteRabbitImg {
+        width: 13vw;
+        padding-top: 10vw;
+    }
+
+    #address {
+        font-size: 1.8em;
+    }
+
+    #train-station {
+        font-size: 0.7em;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #latte {
+        display: none;
+    }
+
+    #mobileMenu {
+        display: none;
+    }
+
+    #avIce34 {
+        display: none;
+    }
+
+
+}
+
+/* BIG > */
+/* BIG > */
+
+
+
+/* MID */
+/* MID */
+@media (max-width: 1150px) and (min-width:426px) {
+
+    .bg {
+        background-position: center 15%;
+    }
+
+    .space {
+        height: .75vh;
+    }
+
+    #nav {
+        font-size: 1.5em;
+    }
+
+    #home {
+        height: 2.25em;
+    }
+
+    #enjoy {
+        padding-top: 18vw;
+    }
+
+    /* MID */
+
+    #whiteRabbitImg {
+        width: 12vw;
+        padding-top: 16vw;
+    }
+
+
+    #ethos {
+        letter-spacing: 0.07em;
+        line-height: 1.2em;
+        color: white;
+        font-size: 1.25em;
+        font-weight: 100;
+        padding-top: 10vw;
+        padding-left: 15vh;
+    }
+
+    #address {
+        font-size: 1.5em;
+    }
+
+    #train-station {
+        font-size: 0.6em;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #latte {
+        display: none;
+    }
+
+    #mobileMenu {
+        display: none;
+    }
+
+    #avIce34 {
+        display: none;
+    }
+
+
+}
+
+/* MID */
+/* MID */
+
+
+
+@media (max-width: 600px) and (min-width:426px) {
+    #ethos {
+        padding-left: 7vw;
+        font-size: 1.2em;
+    }
+
+    #address {
+        font-size: 1.4em;
+    }
+
+    #train-station {
+        font-size: 0.5em;
+    }
+
+}
+
+
+
+/* SMALL */
+/* < 426 */
+@media (max-width: 425px) {
+
+    .bg {
+        background: url("whiteTable.jpg");
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+        width: 100vw;
+        height: 100%;
+        z-index: -1;
+        position: fixed;
+    }
+
+
+    .space {
+        height: .5vh;
+    }
+
+    /* SMALL */
+
+    #nav {
+        font-size: 1.2em;
+        font-weight: 300;
+    }
+
+    #home {
+        height: 2em;
+    }
+
+    /* SMALL */
+
+    #enjoy {
+        padding-top: 25vw;
+    }
+
+    #whiteRabbitImg {
+        width: 12vw;
+        padding-top: 23vw;
+    }
+
+    #ethos {
+        letter-spacing: 0.018em;
+        line-height: 1.2em;
+        color: white;
+        font-size: 1.2em;
+        font-weight: 100;
+        padding-top: 17vh;
+        padding-left: 3vw;
+        padding-bottom: 5vh;
+        padding-right: 2vw;
+    }
+
+    /* SMALL */
+
+    #address {
+        font-size: 1.2em;
+        line-height: 4vh;
+    }
+
+    #train-station {
+        font-size: 0.7em;
+    }
+
+    /* SMALL */
+
+    #menuLatte {
+        display: none;
+    }
+
+    /* SMALL */
+
+    #browserMenu {
+        display: none;
+    }
+
+    #vert34 {
+        display: none;
+    }
+
+}
+
+/* SMALL */
+/* SMALL */
