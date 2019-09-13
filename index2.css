@@ -136,8 +136,6 @@ body {
 #address {
     letter-spacing: 0.15em;
     line-height: 1.35em;
-    padding-bottom: 20vw;
-    padding-left: 2vw;
     color: black;
 }
 
@@ -159,15 +157,9 @@ body {
     font-size: 2vh; 
 }
 
-#footText {
-    text-align: right;
-}
-
-#social
-#facebook,
-#instagram,
-#email, #footText {
+#social, #footText {
     font-size: 2em;
+    text-align: center;
 }
 /*footer*/
 
@@ -196,17 +188,12 @@ body {
     }
 
     /* BIG > */
-
-    #logoAddress {
-        
-    }
     #whiteRabbitImg {
         max-width: 25vw;
         padding-top:5vw;
     }
 
     #address {
-        padding-top: 5vw;
         font-size: 1.8em;
     }
 
