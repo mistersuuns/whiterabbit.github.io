@@ -10,6 +10,7 @@
 }
 
 body {
+    font-family:"Avenir";
     padding: 0;
     margin: 0;
 }
@@ -69,19 +70,13 @@ body {
 
 /*SLIDESHOW*/
 /* background slides */
-.slides {
-    max-width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-    position: relative;
-}
 
 .mySlides {
     display: none;
 }
 
-/* dots 
+
+/* DOTS 
 .dot {
     height: 10px;
     width: 10px;
@@ -92,6 +87,8 @@ body {
     transition: background-color 0.6s ease-in-out;
 }
 */
+
+
 /* Fading animation */
 .fade {
     -webkit-animation-name: fade;
@@ -121,11 +118,10 @@ body {
     color: black;
     opacity: .8;
     display: inline-block;
-    text-align: left;
+    text-align: center;
     font-size: 2.25vw;
     font-weight: thin;
-    letter-spacing: 2.55vw;
-    padding-left: 9vw;
+    letter-spacing: 2.6vw;
     padding-top: 2vw;
     padding-bottom: 2vw;
 }
@@ -156,12 +152,17 @@ body {
 
 /*footer*/
 #footer {
-    background-color: rgba(51, 50, 50, .7);
-    padding-top: 1em;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+    padding: 1vh;
+    font-weight: thin;
+    font-size: 2vh; 
 }
+
 #footText {
     text-align: right;
 }
+
 #social
 #facebook,
 #instagram,
@@ -213,18 +214,6 @@ body {
         display: none;
     }
 
-    #latte {
-        display: none;
-    }
-
-    #mobileMenu {
-        display: none;
-    }
-
-    #avIce34 {
-        display: none;
-    }
-
 
 }
 
@@ -239,10 +228,6 @@ body {
 
     .slides {
         background-position: center 15%;
-    }
-
-    .space {
-        height: .75vh;
     }
 
     #nav {
@@ -264,7 +249,6 @@ body {
         padding-top: 16vw;
     }
 
-
     #ethos {
         letter-spacing: 0.07em;
         line-height: 1.2em;
@@ -284,19 +268,6 @@ body {
     #menu {
         display: none;
     }
-
-    #latte {
-        display: none;
-    }
-
-    #mobileMenu {
-        display: none;
-    }
-
-    #avIce34 {
-        display: none;
-    }
-
 
 }
 
