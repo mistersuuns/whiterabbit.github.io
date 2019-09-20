@@ -324,7 +324,7 @@ body,
     }
 
     #train-station {
-        font-size: 0.6em;
+        font-size: 0.7em;
     }
 
     #menu {
@@ -397,7 +397,7 @@ body,
     }
 
     #address {
-        font-size: 1.2em;
+        font-size: 1.5em;
         line-height: 4vh;
         display:inline-block;
         text-align: right;
