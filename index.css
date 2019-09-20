@@ -34,14 +34,20 @@ body,
 #row,
 #col,
 #navbar,
+#wrTI,
+#wrTImobile,
+#whiteRabbit,
+#coffeeCo,
+#whiteRabbitCoffeeCo,
+#ethAdd,
+#p1,
 #ethos,
+#address,
 #menuLatte,
 #latte,
 #menu,
-#community,
-#enjoy,
-#wrTI #ethAdd,
-#p1, #ethAdd {
+#footer,
+#enjoy {
     color: black;
     padding: 0;
     margin: 0;
@@ -81,7 +87,7 @@ body,
 #wrTI {
     color: black;
     font-family: "BrandonBlk";
-    padding: 8vh 0 0 0;
+    padding-top: 8vh;
     text-align: center;
     border-bottom: 1px solid rgb(75, 75, 75);
 }
@@ -110,10 +116,11 @@ body,
     font-family: "BrandonReg";
     letter-spacing: 0.15em;
     line-height: 1.35em;
-    padding-bottom: 5vw;
-    display: flex;
+    display: inline-flex;
     margin-top: auto;
     text-align: right;
+    padding-bottom: 5vw;
+    padding-left: 4vw;
 }
 
 #train-station {
@@ -146,7 +153,7 @@ body,
 /* >1026 */
 @media (min-width: 1026px) {
     #ul {
-        width: 75vw;
+        width: 81vw;
         display: flex;
         justify-content: space-between;
     }
@@ -158,7 +165,7 @@ body,
     #whiteRabbit {
         font-size: 4vw;
         letter-spacing: .5vw;
-        padding: 8vw 0 0 0;
+        padding-top: 8vw;
     }
 
     #whiteRabbitImg {
@@ -169,7 +176,7 @@ body,
     #coffeeCo {
         font-size: 4vw;
         letter-spacing: 1.1vw;
-        padding: 8vw 0 0 0;
+        padding-top: 8vw;
     }
 
     #ethos {
@@ -178,7 +185,7 @@ body,
 
     #address {
         font-size: 1.7em;
-        padding-right: 9vw;
+        padding-left: 4vw;
     }
 
     #train-station {
@@ -203,12 +210,12 @@ body,
 
 
 
-    /* LARGE */
-    /* LARGE */
+/* LARGE */
+/* LARGE */
 /* 768-1025 */
 @media (max-width: 1025px) and (min-width:768px) {
     #ul {
-        width: 75vw;
+        width: 81vw;
         display: flex;
         justify-content: space-between;
     }
@@ -226,6 +233,7 @@ body,
         letter-spacing: .4vw;
         padding: 6vw 0 0 0;
     }
+
     /* LARGE */
 
     #whiteRabbitImg {
@@ -248,11 +256,14 @@ body,
     #address {
         font-size: 1.5em;
         padding-right: 7vw;
+        padding-left: 4vw;
+
     }
 
     #train-station {
         font-size: 0.6em;
     }
+
     /* LARGE */
 
     #menu {
@@ -267,9 +278,10 @@ body,
         display: none;
     }
 }
+
 /* 768-1025 */
-    /* LARGE */
-    /* LARGE */
+/* LARGE */
+/* LARGE */
 
 
 /* MED */
@@ -277,7 +289,7 @@ body,
 /* 426-767 */
 @media (max-width: 767px) and (min-width:426px) {
     #ul {
-        width: 85vw;
+        width: 90vw;
         display: flex;
         justify-content: space-between;
     }
@@ -317,9 +329,10 @@ body,
     }
 
     #address {
-        display:inline-block;
+        display: inline-block;
         text-align: right;
         padding-right: 5vw;
+        padding-left: 4vw;
         font-size: 1.5em;
     }
 
@@ -399,9 +412,11 @@ body,
     #address {
         font-size: 1.5em;
         line-height: 4vh;
-        display:inline-block;
+        display: inline-block;
         text-align: right;
-        padding-right: 5vw;    }
+        padding-right: 5vw;
+        padding-left: 4vw;
+    }
 
     /* SMALL */
 
