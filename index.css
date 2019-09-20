@@ -59,7 +59,7 @@ body,
     width: 100vw;
     position: fixed;
     z-index: 1;
-    padding: 1vh 0;
+    padding: 1.5vh 0;
     font-family: "BrandonBlk";
     border-bottom: 1px solid rgb(75, 75, 75);
 }
@@ -87,7 +87,7 @@ body,
 #wrTI {
     color: black;
     font-family: "BrandonBlk";
-    padding-top: 8vh;
+    padding-top: 9vh;
     text-align: center;
     border-bottom: 1px solid rgb(75, 75, 75);
 }
@@ -165,18 +165,18 @@ body,
     #whiteRabbit {
         font-size: 4vw;
         letter-spacing: .5vw;
-        padding-top: 8vw;
+        padding-top: 9vw;
     }
 
     #whiteRabbitImg {
         max-width: 12vw;
-        padding-bottom: 2vw;
+        padding-bottom: 4vw;
     }
 
     #coffeeCo {
         font-size: 4vw;
         letter-spacing: 1.1vw;
-        padding-top: 8vw;
+        padding-top: 9vw;
     }
 
     #ethos {
@@ -238,7 +238,7 @@ body,
 
     #whiteRabbitImg {
         max-width: 10vw;
-        padding-bottom: 2vw;
+        padding-bottom: 4vw;
     }
 
     #coffeeCo {
@@ -312,7 +312,7 @@ body,
 
     #whiteRabbitImg {
         max-width: 14vw;
-        padding-bottom: 3vw;
+        padding-bottom: 5vw;
     }
 
     #whiteRabbitCoffeeCo {
@@ -378,14 +378,14 @@ body,
     #wrTImobile {
         color: black;
         font-family: "BrandonBlk";
-        padding: 8vh 0 0 7vw;
+        padding: 10vh 0 0 7vw;
         text-align: left;
         border-bottom: 1px solid rgb(75, 75, 75);
     }
 
     #whiteRabbitImg {
         max-width: 14vw;
-        padding-bottom: 3vw;
+        padding-bottom: 5vw;
     }
 
     #whiteRabbitCoffeeCo {
