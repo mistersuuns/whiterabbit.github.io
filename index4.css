@@ -1,0 +1,578 @@
+/*
+* {
+    border: solid black .2px;
+}
+*/
+
+@font-face {
+    font-family: "BrandonBlk";
+    src: url("Brandon GR./Brandon_blk.otf");
+}
+
+@font-face {
+    font-family: "BrandonLight";
+    src: url("Brandon GR./Brandon_light.otf");
+}
+
+@font-face {
+    font-family: "BrandonMed";
+    src: url("Brandon GR./Brandon_med.otf");
+}
+
+@font-face {
+    font-family: "BrandonReg";
+    src: url("Brandon GR./Brandon_reg.otf");
+}
+
+@font-face {
+    font-family: "BrandonThn";
+    src: url("Brandon GR./Brandon_thin.otf");
+}
+
+body,
+#row,
+#col,
+#navbar,
+#wrTI,
+#wrTImobile,
+#whiteRabbit,
+#coffeeCo,
+#whiteRabbitCoffeeCo,
+#fluid,
+#p1,
+#ethos,
+#formAddress,
+#address,
+#hours,
+#hour,
+#menuBasic,
+#menuText,
+#menuL,
+#menuBig,
+#latteCup,
+#latteC,
+#footer,
+#enjoy {
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+/* nav */
+#navbar {
+    font-family: "BrandonReg";
+    background-color: rgba(255, 255, 255, 0.99);
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+    padding: 1.5vh 0;
+    border-bottom: 1px solid rgb(75, 75, 75);
+}
+
+#navbar a {
+    color: rgb(75, 75, 75);
+    letter-spacing: .2vw;
+}
+
+#navbar a:hover {
+    transition: .2s ease-in-out;
+}
+
+#ul {
+    margin: 0 auto;
+}
+
+#nav {
+    color: rgb(75, 75, 75);
+    font-size: 2.5vh;
+}
+
+/* nav */
+
+#wrTI {
+    color: black;
+    font-family: "BrandonBlk";
+    padding-top: 9vh;
+    text-align: center;
+    border-bottom: 1px solid rgb(75, 75, 75);
+}
+
+#whiteRabbit {
+    text-align: right;
+}
+
+#coffeeCo {
+    text-align: left;
+}
+
+#ethos {
+    font-family: "BrandonReg";
+    display: inline-block;
+    text-align: left;
+    font-weight: thin;
+    color: black;
+    letter-spacing: 0.1vw;
+    line-height: 3.5vh;
+    padding: 10vw 0;
+}
+
+#latteCup {
+    text-align: right;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+#menuText {
+    font-family: "BrandonReg";
+    display: inline-block;
+    text-align: right;
+    font-weight: thin;
+    color: black;
+    letter-spacing: 0.1vw;
+    line-height: 3.5vh;
+}
+
+#formAddress {
+    font-family: "BrandonReg";
+    padding: 20vw 8vw 8vw 8vw;
+}
+
+#philosophy,
+#touch,
+#location,
+#hours {
+    font-family: "BrandonReg";
+    letter-spacing: .6vw;
+    color: rgb(86, 110, 110);
+}
+
+#address {
+    font-family: "BrandonReg";
+    letter-spacing: 0.6vw;
+    display: inline-flex;
+    text-align: right;
+}
+
+#train-station {
+    vertical-align: top;
+}
+
+#hours {
+    display: inline-flex;
+    text-align: right;
+}
+
+#hour {
+    text-align: left;
+}
+
+
+/*footer*/
+#footer {
+    font-family: "BrandonReg";
+    letter-spacing: 0.15em;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.99);
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    border-top: 1px solid rgb(75, 75, 75);
+}
+
+#enjoy {
+    font-size: 1.6em;
+    letter-spacing: .6vw;
+    color: rgb(60, 95, 95);
+}
+
+#instagram,
+#email {
+    font-size: 2em;
+}
+
+/*footer*/
+
+/* XL */
+/* XL */
+/* >1026 */
+@media (min-width: 1026px) {
+    #ul {
+        width: 81vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #nav {
+        font-size: 1.3em;
+    }
+
+    #wrTImobile {
+        display: none
+    }
+
+    /* XL */
+
+    #whiteRabbit {
+        font-size: 4vw;
+        letter-spacing: .5vw;
+        padding-top: 9vw;
+    }
+
+    #whiteRabbitImg {
+        max-width: 12vw;
+        padding-bottom: 4vw;
+    }
+
+    /* XL */
+    #coffeeCo {
+        font-size: 4vw;
+        letter-spacing: 1.1vw;
+        padding-top: 9vw;
+    }
+
+    #ethos {
+        padding-left: 9vw;
+        padding-bottom: 20vw;
+        font-size: 1.5em;
+        line-height: 1.2em;
+    }
+
+    #latteC {
+        max-width: 33vw;
+        padding: 2vw 10vw 5vw 2vw;
+    }
+
+    #menuBasic {
+        max-width: 50vw;
+        height: auto;
+        padding-left: 8vw;
+        padding-right: 5VW;
+    }
+
+    #menuText {
+        font-size: 1.5em;
+        line-height: 1.2em;
+        padding-right: 10vw;
+    }
+    #menuL {
+        display: none;
+    }
+
+    /* XL */
+
+    #philosophy,
+    #location,
+    #hours {
+        line-height: 2em;
+        font-size: 1.5em;
+    }
+    #address {
+        line-height: 1.5em;
+        font-size: 1.5em;
+    }
+
+    #touch {
+        line-height: 2em;
+        font-size: 2.2em;
+    }
+
+    #train-station {
+        font-size: 0.7em;
+    }
+}
+/* XL */
+/* >1026 */
+
+
+
+/* LARGE */
+/* LARGE */
+/* 768-1025 */
+@media (max-width: 1025px) and (min-width:768px) {
+    #ul {
+        width: 81vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #nav {
+        font-size: 1.3em;
+    }
+
+    #wrTImobile {
+        display: none
+    }
+
+    #whiteRabbit {
+        font-size: 4vw;
+        letter-spacing: .4vw;
+        padding: 6vw 0 0 0;
+    }
+
+    /* LARGE */
+
+    #whiteRabbitImg {
+        max-width: 10vw;
+        padding-bottom: 4vw;
+    }
+
+    #coffeeCo {
+        font-size: 4vw;
+        letter-spacing: .9vw;
+        padding: 6vw 0 0 0;
+    }
+
+    /* LARGE */
+
+    #ethos {
+        padding-left: 10vw;
+        font-size: 1.3em;
+        line-height: 1.2em;
+    }
+
+    #latteC {
+        max-width: 33vw;
+        padding: 0 10vw 0 3vw;
+    }
+
+    #menuBasic {
+        max-width: 50vw;
+        height: auto;
+        padding-left: 10vw;
+        padding-right: 5VW;
+    }
+
+    #menuText {
+        font-size: 1.3em;
+        line-height: 1.2em;
+        padding-right: 10vw;
+    }
+    #menuL {
+        display: none;
+    }
+
+    #philosophy,
+    #location,
+    #hours {
+        line-height: 1.8em;
+        font-size: 1.3em;
+    }
+
+    #address {
+        line-height: 1.7em;
+        font-size: 1.5em;
+    }
+
+    #touch {
+        line-height: 1.8em;
+        font-size: 1.9em;
+    }
+
+    #train-station {
+        font-size: 0.6em;
+    }
+}
+
+/* 768-1025 */
+/* LARGE */
+/* LARGE */
+
+
+/* MED */
+/* MED */
+/* 426-767 */
+@media (max-width: 767px) and (min-width:426px) {
+    #ul {
+        width: 90vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #nav {
+        font-size: 1.1em;
+    }
+
+    #wrTI {
+        display: none;
+    }
+
+    #wrTImobile {
+        color: black;
+        font-family: "BrandonBlk";
+        padding: 8vh 0 0 7vw;
+        text-align: left;
+        border-bottom: 1px solid rgb(75, 75, 75);
+    }
+
+    #whiteRabbitImg {
+        max-width: 14vw;
+        padding-bottom: 5vw;
+    }
+
+    #whiteRabbitCoffeeCo {
+        font-size: 7.5vw;
+        letter-spacing: .7vw;
+        padding-left: 15vw;
+    }
+
+    /* MED */
+
+    #ethos {
+        padding-left: 8vw;
+        padding-right: 8vw;
+        font-size: 1.2em;
+    }
+
+    #latteCup {
+        text-align: center;
+    }
+    #latteC {
+        max-width: 80vw;
+        padding: 0 10vw 10vw 10vw;
+    }
+
+    #menuBasic {
+        display: none;
+    }
+
+    #menuText {
+        font-size: 1.2em;
+        line-height: 1.2em;
+        padding:10vw 9vw 0 9vw;
+    }
+
+    #menuL {
+text-align: center;
+padding: 8vw;
+        height: auto;
+    }
+
+
+    #philosophy,
+    #location,
+    #hours {
+        display: inline-block;
+        text-align: right;
+        line-height: 1.8em;
+        font-size: 1.3em;
+    }
+
+    #address {
+        display: inline-block;
+        text-align: right;
+        line-height: 1.5em;
+        font-size: 1.3em;
+    }
+
+    #touch {
+        line-height: 1.8em;
+        font-size: 1.7em;
+    }
+
+    #train-station {
+        font-size: 0.7em;
+    }
+}
+/* MED */
+/* MED */
+
+
+/* SM */
+/* <426 */
+@media (max-width: 425px) {
+    #ul {
+        width: 95vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #nav {
+        font-size: .9em;
+    }
+
+    #wrTI {
+        display: none;
+    }
+
+    #wrTImobile {
+        color: black;
+        font-family: "BrandonBlk";
+        padding: 10vh 0 0 7vw;
+        text-align: left;
+        border-bottom: 1px solid rgb(75, 75, 75);
+    }
+
+    #whiteRabbitImg {
+        max-width: 14vw;
+        padding-bottom: 5vw;
+    }
+
+    #whiteRabbitCoffeeCo {
+        font-size: 7.5vw;
+        letter-spacing: .7vw;
+        padding-left: 15vw;
+    }
+
+    /* SMALL */
+
+    #coffeeCo {
+        font-size: 5vw;
+        letter-spacing: 1.1vw;
+        padding: 5vw 0 0 0;
+    }
+
+    #ethos {
+        padding-top: 15vw;
+        padding-left: 4vw;
+        padding-right: 5vw;
+        font-size: 1.2em;
+    }
+
+    #latteCup {
+        text-align: center;
+    }
+
+    #latteC {
+        max-width: 80vw;
+        padding: 0 10vw 10vw 10vw;
+    }
+
+    #menuBasic {
+        display: none;
+    }
+
+    #menuText {
+        font-size: 1.2em;
+        line-height: 1.2em;
+        padding-top: 5vw;
+        padding-right: 5vw;
+        padding-left: 5vw;
+    }
+
+    #menuL {        
+        text-align: center;
+        padding: 5vw;
+        height: auto;
+    }
+
+    #philosophy,
+    #location,
+    #hours,
+    #address {
+        font-size: 1.2em;
+        line-height: 1.5em;
+        display: inline-block;
+        text-align: right;
+    }
+
+    #touch {
+        font-size: 1.5em;
+    }
+
+    #train-station {
+        font-size: 0.7em;
+    }
+}
+
+/* SMALL */
+/* SMALL */
