@@ -83,6 +83,7 @@
 .takeAway {
     text-align: right;
     padding-top: 4vh;
+    padding-bottom: 10vh;
 }
 #takeAway {
     max-width: 20vw;
@@ -92,7 +93,9 @@
     display: inline-block;
     text-align: left;
     font-family: "BrandonReg";
-    letter-spacing: 0.1vw;
+}
+#ethosText, #caffeine {
+letter-spacing: 0.1vw;
 }
 
 #menuText,
@@ -106,7 +109,7 @@
 #formAddress, .menu {
     font-family: "BrandonReg";
 }
-#touch, #location, #hours {
+#philosophy, #touch, #location, #hours {
     letter-spacing: .6vw;
     color: black;
 }
