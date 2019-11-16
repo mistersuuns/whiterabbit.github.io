@@ -1,10 +1,10 @@
-/*
+
 * {
     border: solid black .2px;
 }
-*/
 
-* {
+
+*, .col, #address {
     padding: 0;
     margin: 0;
 }
@@ -103,8 +103,7 @@
     letter-spacing: 0.1vw;
 }
 
-#formAddress, #colTouch, #philosophy,
-#touch, #location, #hours, #address {
+#formAddress, .menu {
     font-family: "BrandonReg";
 }
 #touch, #location, #hours {
@@ -331,9 +330,6 @@
 
 /* MED MED MED MED MED MED MED MED MED */
 
-    #menuText {
-        display: none;
-    }
     #caffeine {
         font-family: "BrandonReg";
         font-size: 17px;
@@ -387,8 +383,7 @@
         line-height: 25px;
         letter-spacing: .2vw;
     }
-    #menuMed
-     {
+    #menuMed {
         display: none;
     }
 
@@ -461,8 +456,18 @@
         font-size: 18px;
         line-height: 23px;
     }
+#ethos {
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+#menuMed {padding-right: 4vw;
+padding-left: 4vw;}
+#caffeine {padding-left: 4vw;
+}
 
-
+#address {
+    padding-left: 30vw;
+}
     /* XS XS XS XS XS XS XS XS  */
     #menuText {
         display: none;
