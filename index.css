@@ -88,6 +88,14 @@
 #takeAway {
     max-width: 20vw;
 }
+.cropAmy, .cropAdrian {
+    text-align: right;
+    padding-top: 4vh;
+    padding-left: 10vw;
+}
+#cropAmy, #cropAdrian {
+    max-width: 13.5vw;
+}
 #ethos,
 #caffeine {
     display: inline-block;
@@ -412,6 +420,13 @@ letter-spacing: 0.1vw;
     #train-station {
         font-size: 12px;
     }
+    .cropAmy, .cropAdrian {
+        padding-top: 4vh;
+        padding-left: 7vw;
+    }
+    #cropAmy, #cropAdrian {
+        max-width: 18vw;
+    }
 }
 /* SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
 /* SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
@@ -444,7 +459,7 @@ letter-spacing: 0.1vw;
     }
     #whiteRabbitCoffeeCo {
         font-size: 6vw;
-        padding-top: 17.5vh;
+        padding-top: 15vh;
         padding-left: 7.5vw;
     }
     .whiteRabbit {
@@ -493,6 +508,10 @@ padding-left: 4vw;}
 
     #train-station {
         font-size: 0.7em;
+    }
+
+    .cropAmy, .takeAway {
+        display: none;
     }
 }
 
