@@ -364,6 +364,7 @@ letter-spacing: 0.1vw;
     #whiteRabbitImg {
         max-width: 80vw;
         padding-top: 10vh;
+        padding-bottom: 5vh;
     }
 
     #ethos, #menuText {
@@ -431,6 +432,7 @@ letter-spacing: 0.1vw;
         max-width: 80vw;
         padding-left: 2vw;
         padding-top: 10vh;
+        padding-bottom: 5vh;
     }
 
     #ethos,
