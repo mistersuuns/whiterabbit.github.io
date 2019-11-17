@@ -52,12 +52,12 @@
 }
 /* nav */
 
-#wT {
+.wTbig {
     font-family: "BrandonBlk";
     text-align: center;
     border-bottom: 1px solid rgb(75, 75, 75);
 }
-#wTmob {
+.wTmob {
     font-family: "BrandonBlk";
     border-bottom: 1px solid rgb(75, 75, 75);
 }
@@ -96,6 +96,8 @@ letter-spacing: 0.1vw;
     border: .1px solid rgb(0, 0, 0);
     padding-top: 2vh;
     padding-bottom: 2vh;
+    margin-left: 1.5vw;
+    margin-top: 1vh;
 }
 
 #menuText,
@@ -163,7 +165,7 @@ letter-spacing: 0.1vw;
         font-size: 1.3em;
     }
 
-    #wTmob, #wTxs {
+    .wTmob, .wTxs {
         display: none
     }
 
@@ -228,7 +230,7 @@ letter-spacing: 0.1vw;
     #nav {
         font-size: 1.2em;
     }
-    #wTmob, #wTxs {
+    .wTmob, .wTxs {
         display: none;
     }
     #whiteRabbitImg {
@@ -297,12 +299,12 @@ letter-spacing: 0.1vw;
     #nav {
         font-size: 1.1em;
     }
-    #wTmob, #wTxs {
+    .wTmob, .wTxs {
         display: none;
     }
 
 /* MED MED MED MED MED MED MED MED MED */
-    #wT {
+    .wTbig {
     font-size: 4vw;
     }
 
@@ -357,7 +359,7 @@ letter-spacing: 0.1vw;
     #nav {
         font-size: 1.1em;
     }
-    #wT, #wTxs {
+    .wTbig, .wTxs {
         display: none;
     }
 
@@ -381,7 +383,7 @@ letter-spacing: 0.1vw;
         font-size: 17px;
         line-height: 25px;
     }
-
+/* SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
     #philosophy,
     #touch,
     #location,
@@ -421,10 +423,10 @@ letter-spacing: 0.1vw;
         font-size: .9em;
     }
 
-    #wT, #wTmob, #takeAway {
+    .wTbig, .wTmob, #takeAway {
         display: none;
     }
-    #wTxs {
+    .wTxs {
         color: black;
         font-family: "BrandonBlk";
         text-align: left;
@@ -447,7 +449,8 @@ letter-spacing: 0.1vw;
     padding-right: 4vw;
 }
 #menuMed {padding-right: 4vw;
-padding-left: 4vw;}
+padding-left: 4vw;
+padding-bottom: 4vh;}
 #caffeine {padding-left: 4vw;
 }
 
@@ -464,6 +467,8 @@ padding-left: 4vw;}
         font-size: 16px;
         line-height: 21px;
         padding-top:2vh;
+        margin-left: 4vw;
+        margin-right: 4vw;
     }
 
     #philosophy,
