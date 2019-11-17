@@ -61,18 +61,7 @@
     font-family: "BrandonBlk";
     border-bottom: 1px solid rgb(75, 75, 75);
 }
-#whiteRabbit {
-    text-align: left;
-    padding-top: 10vh;
-}
-#coffeeCo {
-    text-align: right;
-    padding-top: 10vh;
-}
-#whiteRabbitImg {
-    padding-top: 7.5vh;
-    padding-bottom: 4vh;
-}
+
 .row75top {
     padding-top: 10vh;
 }
@@ -93,9 +82,7 @@
     padding-top: 4vh;
     padding-left: 10vw;
 }
-#cropAmy, #cropAdrian {
-    max-width: 13.5vw;
-}
+
 #ethos,
 #caffeine {
     display: inline-block;
@@ -104,6 +91,11 @@
 }
 #ethosText, #caffeine {
 letter-spacing: 0.1vw;
+}
+#caffeine {
+    border: .1px solid rgb(0, 0, 0);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 
 #menuText,
@@ -174,17 +166,11 @@ letter-spacing: 0.1vw;
     #wTmob, #wTxs {
         display: none
     }
-    #whiteRabbit, #coffeeCo {
-        font-size: 5vw;
-    }
-    #whiteRabbit {
-    letter-spacing: 1.25vw;
-    }
-    #coffeeCo {
-     letter-spacing: .8vw;
-    } 
+
     #whiteRabbitImg {
-        max-width: 12vw;
+        max-width: 65vw;
+        padding-top: 12.5vh;
+        padding-bottom: 7.5vh;
     }
 
     #ethosText {
@@ -222,6 +208,10 @@ letter-spacing: 0.1vw;
     #train-station {
         font-size: 0.7em;
     }
+    
+    #cropAmy, #cropAdrian {
+        max-width: 11vw;
+    }
 }
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
@@ -241,19 +231,12 @@ letter-spacing: 0.1vw;
     #wTmob, #wTxs {
         display: none;
     }
-
-/* LARGE LARGE LARGE LARGE LARGE LARGE */
-    #whiteRabbit {
-        font-size: 4vw;
-        letter-spacing: .4vw;
-    }
     #whiteRabbitImg {
-        max-width: 10vw;
+        max-width: 65vw;
+        padding-top: 12.5vh;
+        padding-bottom: 7.5vh;
     }
-    #coffeeCo {
-        font-size: 4vw;
-        letter-spacing: .9vw;
-    }
+/* LARGE LARGE LARGE LARGE LARGE LARGE */
     #ethosText {
         font-size: 20px;
         line-height: 24px;
@@ -295,6 +278,10 @@ letter-spacing: 0.1vw;
     #train-station {
         font-size: 0.6em;
     }
+
+    #cropAmy, #cropAdrian {
+        max-width: 13vw;
+    }
 }
 /* LARGE LARGE LARGE LARGE LARGE LARGE */
 /* LARGE LARGE LARGE LARGE LARGE LARGE */
@@ -319,17 +306,9 @@ letter-spacing: 0.1vw;
     font-size: 4vw;
     }
 
-    #whiteRabbit {
-    letter-spacing: 1.8vw;
-    padding-top: 16vh;
-    }
-    #coffeeCo {
-    letter-spacing: 1.5vw;
-    padding-top: 16vh;
-    }
     #whiteRabbitImg {
-        max-width: 11vw;
-        padding-top: 10vh;
+        max-width: 65vw;
+        padding-top: 12.5vh;
     }
 
     #ethos,
@@ -360,6 +339,9 @@ letter-spacing: 0.1vw;
     #train-station {
         font-size: 12px;
     }
+    #cropAmy, #cropAdrian {
+        max-width: 13vw;
+    }
 }
 /* MED MED MED MED MED MED MED MED MED */
 /* MED MED MED MED MED MED MED MED MED */
@@ -380,15 +362,10 @@ letter-spacing: 0.1vw;
     }
 
     #whiteRabbitImg {
-        max-width: 18vw;
+        max-width: 80vw;
         padding-top: 10vh;
     }
-    #whiteRabbitCoffeeCo {
-        font-size: 7vw;
-        letter-spacing: .9vw;
-        margin: 0;
-        padding-top: 17vh;
-    }
+
     #ethos, #menuText {
         font-size: 18px;
         line-height: 25px;
@@ -423,9 +400,7 @@ letter-spacing: 0.1vw;
     .cropAmy, .cropAdrian {
         padding-top: 4vh;
         padding-left: 7vw;
-    }
-    #cropAmy, #cropAdrian {
-        max-width: 18vw;
+        max-width: 13vw;
     }
 }
 /* SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
@@ -453,20 +428,9 @@ letter-spacing: 0.1vw;
         border-bottom: 1px solid rgb(75, 75, 75);
     }
     #whiteRabbitImg {
-        max-width: 20vw;
+        max-width: 80vw;
         padding-left: 2vw;
         padding-top: 10vh;
-    }
-    #whiteRabbitCoffeeCo {
-        font-size: 6vw;
-        padding-top: 15vh;
-        padding-left: 7.5vw;
-    }
-    .whiteRabbit {
-        letter-spacing: 2vw;
-    }
-    .coffeeCo {
-        letter-spacing: 3vw;
     }
 
     #ethos,
