@@ -401,6 +401,8 @@ letter-spacing: 0.1vw;
     .cropAmy, .cropAdrian {
         padding-top: 4vh;
         padding-left: 7vw;
+    }
+    #cropAmy, #cropAdrian {
         max-width: 13vw;
     }
 }
