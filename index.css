@@ -211,7 +211,7 @@ letter-spacing: 0.1vw;
         height: auto;
     }
     #espressoMenu {
-        max-width: 30vw;
+        width: 30vw;
     }
 
     #menuMed {
