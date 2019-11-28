@@ -1,0 +1,493 @@
+/* {
+    border: solid black .2px;
+}*/
+
+
+*, .col, #address {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "BrandonBlk";
+    src: url("Brandon GR./Brandon_blk.otf");
+}
+
+@font-face {
+    font-family: "BrandonReg";
+    src: url("Brandon GR./Brandon_reg.otf");
+}
+
+.left {
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+/* nav */
+#navbar {
+    font-family: "BrandonReg";
+    background-color: rgba(255, 255, 255, 0.99);
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    margin: 0;
+    border-bottom: 1px solid rgb(141, 141, 141);
+}
+#navbar a {
+    color: black;
+    letter-spacing: .2vw;
+}
+#navbar a:hover {
+    transition: .2s ease-in-out;
+}
+#ul {
+    display: flex;
+    justify-content: space-between;
+}
+/* nav */
+
+.wTbig {
+    font-family: "BrandonBlk";
+    text-align: center;
+    border-bottom: 1px solid rgb(75, 75, 75);
+}
+.wTmob {
+    font-family: "BrandonBlk";
+    border-bottom: 1px solid rgb(75, 75, 75);
+}
+
+.row75top {
+    padding-top: 10vh;
+}
+.row75bottom{
+    padding-bottom: 10vh;
+}
+
+.takeAway {
+    text-align: right;
+    padding-top: 4vh;
+    padding-bottom: 10vh;
+}
+#takeAway {
+    max-width: 12vw;
+    opacity: .9;
+}
+.cropAmy, .cropAdrian {
+    text-align: right;
+    padding-top: 4vh;
+    padding-left: 10vw;
+}
+
+#ethos,
+#caffeine {
+    display: inline-block;
+    text-align: left;
+    font-family: "BrandonReg";
+}
+#ethosText, #caffeine {
+letter-spacing: 0.1vw;
+}
+#caffeine {
+    border: .1px solid rgb(0, 0, 0);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin-left: 1.5vw;
+    margin-top: 1vh;
+}
+
+#menuText,
+#menuMed {
+    display: inline-block;
+    text-align: right;
+    font-family: "BrandonReg";
+    letter-spacing: 0.1vw;
+}
+
+#formAddress, .menu {
+    font-family: "BrandonReg";
+
+}
+#philosophy, #touch, #location, #hours {
+    letter-spacing: .6vw;
+    color: black;
+}
+
+#address {
+    letter-spacing: .6vw;
+    display: inline-flex;
+    text-align: right;
+}
+
+#train-station {
+    vertical-align: top;
+}
+#hours {
+    display: inline-block;
+    text-align: right;
+}
+#hour {
+    text-align: left;
+}
+
+/*footer*/
+#footer {
+    font-family: "BrandonReg";
+    letter-spacing: 0.15em;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.99);
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    border-top: 1px solid rgb(75, 75, 75);
+}
+#enjoy {
+    font-size: 1.6em;
+    letter-spacing: .6vw;
+    color: rgb(60, 95, 95);
+}
+#instagram,
+#email {
+    font-size: 2em;
+}
+
+
+/* XL XL XL XL XL XL XL XL XL XL XL XL */
+/* XL XL XL XL XL XL XL XL XL XL XL XL */
+@media (min-width: 1200px) {
+    #ul {
+        width: 81vw;
+        padding-left: 17%;
+    }
+    #nav {
+        font-size: 1.3em;
+    }
+
+    .wTmob, .wTxs {
+        display: none
+    }
+
+    #whiteRabbitImg {
+        max-width: 65vw;
+        padding-top: 12.5vh;
+        padding-bottom: 7.5vh;
+    }
+
+    #ethosText {
+        font-size: 1.3em;
+        line-height: 1.3em;
+    }
+/* XL XL XL XL XL XL XL XL XL XL XL XL */
+    #caffeine {
+        font-family: "BrandonReg";
+        font-size: 20px;
+        line-height: 1.5em;
+        max-width: 50vw;
+        height: auto;
+    }
+    #menuMed {
+        display: none;
+    }
+    #menuText {
+        font-size: 1.3em;
+        line-height: 1.3em;
+    }
+
+/* XL XL XL XL XL XL XL XL XL XL XL XL */
+#philosophy,
+    #touch,
+    #location,
+    #hours {
+        line-height: 2em;
+        font-size: 36px;
+    }
+    #address {
+        line-height: 1.5em;
+        font-size: 1.5em;
+    }
+    #train-station {
+        font-size: 0.7em;
+    }
+    
+    #cropAmy, #cropAdrian {
+        max-width: 11vw;
+    }
+}
+/* XL XL XL XL XL XL XL XL XL XL XL XL */
+/* XL XL XL XL XL XL XL XL XL XL XL XL */
+
+
+
+/* LARGE LARGE LARGE LARGE LARGE LARGE */
+/* LARGE LARGE LARGE LARGE LARGE LARGE */
+@media (min-width: 992px) and (max-width: 1199px) {
+    #ul {
+        width: 81vw;
+        padding-left: 17%;
+    }
+    #nav {
+        font-size: 1.2em;
+    }
+    .wTmob, .wTxs {
+        display: none;
+    }
+    #whiteRabbitImg {
+        max-width: 65vw;
+        padding-top: 12.5vh;
+        padding-bottom: 7.5vh;
+    }
+/* LARGE LARGE LARGE LARGE LARGE LARGE */
+    #ethosText {
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.2vw;
+    }
+/* LARGE LARGE LARGE LARGE LARGE LARGE */
+
+    #caffeine {
+        font-family: "BrandonReg";
+        font-size: 18px;
+        line-height: 1.25em;
+        max-width: 50vw;
+        height: auto;
+    }
+
+    #menuText {
+        font-size: 1.3em;
+        line-height: 1.3em;
+    }
+
+    #menuMed {
+        display: none;
+    }
+
+/* LARGE LARGE LARGE LARGE LARGE LARGE */
+    #philosophy,
+    #touch,
+    #location,
+    #hours {
+        line-height: 2em;
+        font-size: 32px;
+    }
+
+    #address {
+        line-height: 1.5em;
+        font-size: 1.5em;
+    }
+
+    #train-station {
+        font-size: 0.6em;
+    }
+
+    #cropAmy, #cropAdrian {
+        max-width: 13vw;
+    }
+}
+/* LARGE LARGE LARGE LARGE LARGE LARGE */
+/* LARGE LARGE LARGE LARGE LARGE LARGE */
+
+
+/* MED MED MED MED MED MED MED MED MED */
+/* MED MED MED MED MED MED MED MED MED */
+@media (min-width: 992px) and (max-width: 1199px) {
+    #ul {
+        width: 81vw;
+        padding-left: 17%;
+    }
+    #nav {
+        font-size: 1.1em;
+    }
+    .wTmob, .wTxs {
+        display: none;
+    }
+
+/* MED MED MED MED MED MED MED MED MED */
+    .wTbig {
+    font-size: 4vw;
+    }
+
+    #whiteRabbitImg {
+        max-width: 65vw;
+        padding-top: 12.5vh;
+    }
+
+    #ethos,
+    #menuMed {
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: .2vw;
+    }
+
+/* MED MED MED MED MED MED MED MED MED */
+
+    #caffeine {
+        font-family: "BrandonReg";
+        font-size: 17px;
+        line-height: 25px;
+    }
+    #philosophy,
+    #touch,
+    #location,
+    #hours {
+        line-height: 35px;
+        font-size: 25px;
+    }
+    #address {
+        line-height: 25px;
+        font-size: 18px;
+    }
+    #train-station {
+        font-size: 12px;
+    }
+    #cropAmy, #cropAdrian {
+        max-width: 13vw;
+    }
+}
+/* MED MED MED MED MED MED MED MED MED */
+/* MED MED MED MED MED MED MED MED MED */
+
+
+/* SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
+/* SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
+@media (min-width: 768px) and (max-width: 991px) {
+    #ul {
+        width: 90vw;
+        padding-left: 9%;
+    }
+    #nav {
+        font-size: 1.1em;
+    }
+    .wTbig, .wTxs {
+        display: none;
+    }
+
+    #whiteRabbitImg {
+        max-width: 80vw;
+        padding-top: 10vh;
+        padding-bottom: 5vh;
+    }
+
+    #ethos, #menuText {
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: .2vw;
+    }
+    #menuMed {
+        display: none;
+    }
+
+    #caffeine {
+        font-family: "BrandonReg";
+        font-size: 17px;
+        line-height: 25px;
+    }
+/* SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
+    #philosophy,
+    #touch,
+    #location,
+    #hours {
+        line-height: 35px;
+        font-size: 25px;
+    }
+
+    #address {
+        line-height: 25px;
+        font-size: 18px;
+    }
+
+    #train-station {
+        font-size: 12px;
+    }
+    .cropAmy, .cropAdrian {
+        padding-top: 4vh;
+        padding-left: 7vw;
+    }
+    #cropAmy, #cropAdrian {
+        max-width: 13vw;
+    }
+}
+/* SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
+/* SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
+
+
+/* XS XS XS XS XS XS XS XS XS */
+/* XS XS XS XS XS XS XS XS XS */
+@media (max-width: 767px) {
+    #ul {
+        width: 90vw;
+        padding-left: 1vw;
+    }
+    #nav {
+        font-size: .9em;
+    }
+
+    .wTbig, .wTmob, #takeAway {
+        display: none;
+    }
+    .wTxs {
+        color: black;
+        font-family: "BrandonBlk";
+        text-align: left;
+        border-bottom: 1px solid rgb(75, 75, 75);
+    }
+    #whiteRabbitImg {
+        max-width: 80vw;
+        padding-left: 2vw;
+        padding-top: 10vh;
+        padding-bottom: 5vh;
+    }
+
+    #ethos,
+    #menuMed {
+        font-size: 18px;
+        line-height: 23px;
+    }
+#ethos {
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+#menuMed {padding-right: 4vw;
+padding-left: 4vw;
+padding-bottom: 4vh;}
+#caffeine {padding-left: 4vw;
+}
+
+#address {
+    padding-left: 30vw;
+}
+    /* XS XS XS XS XS XS XS XS  */
+    #menuText {
+        display: none;
+    }
+
+    #caffeine {
+        font-family: "BrandonReg";
+        font-size: 16px;
+        line-height: 21px;
+        padding-top:2vh;
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
+
+    #philosophy,
+    #location,
+    #touch,
+    #hours {
+        font-size: 23px;
+        line-height: 35px;
+    }
+
+    #train-station {
+        font-size: 0.7em;
+    }
+
+    .cropAmy, .takeAway {
+        display: none;
+    }
+}
+
+/* XS XS XS XS XS XS XS XS XS */
+/* XS XS XS XS XS XS XS XS XS */
