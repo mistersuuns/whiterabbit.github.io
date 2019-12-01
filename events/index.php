@@ -32,9 +32,14 @@
         $mail->isHTML(true);
         $mail->setFrom($yourEmail, $name);
         $mail->addAddress("mybobbyjobby@gmail.com", "Amy Ferris");
-        $mail->portfolioURL($portfolioURL);
-        $mail->mediaType($mediaType);
-        $mail->msg($msg);
+        $mail->phoneNumber($phoneNumber);
+        $mail->timeDate($timeDate);
+        $mail->duration($duration);
+        $mail->publicPrivate($publicPrivate);
+        $mail->guests($guests);
+        $mail->considerations($considerations);
+        $mail->catering($catering);
+        $mail->details($details);
 
         if($mail->send())
             $response = "Success! We'll be in touch.";

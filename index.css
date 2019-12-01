@@ -169,8 +169,7 @@ letter-spacing: 0.1vw;
     letter-spacing: .6vw;
     color: rgb(60, 95, 95);
 }
-#instagram,
-#email {
+#instagram {
     font-size: 2em;
 }
 
