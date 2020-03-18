@@ -1,5 +1,4 @@
 <?php
-    use PHPMailer;
 
     if (isset($_POST['name']) && isset($_POST['phoneNumber']) && isset($_POST['yourEmail']) && isset($_POST['timeDate']) && isset($_POST['duration']) && isset($_POST['publicPrivate']) && isset($_POST['guests']) && isset($_POST['considerations']) && isset($_POST['catering']) && isset($_POST['details']))
      {
@@ -17,21 +16,21 @@
         require_once "PHPMailer/PHPMailer.php";
         require_once "PHPMailer/SMTP.php";
         require_once "PHPMailer/Exception.php";
-
-        $mail = new PHPMailer();
+        require '../vendor/autoload.php';
 
         $mail->isSMTP();
         $mail->Host = "smtp.googlemail.com";
         $mail->SMTPAuth = "true";
         $mail->Username = "whiterabbitproposal@gmail.com";
         $mail->Password = "udzuulwuolnkdsju";
+        $mail->Port = 587;
         $mail->Port = 465;
         $mail->SMTPSecure = "ssl";
 
         //Email Settings
         $mail->isHTML(true);
         $mail->setFrom($yourEmail, $name);
-        $mail->addAddress("mybobbyjobby@gmail.com", "Amy Ferris");
+        $mail->addAddress("mrbobbyjobby@gmail.com", "Amy Ferris");
         $mail->phoneNumber($phoneNumber);
         $mail->timeDate($timeDate);
         $mail->duration($duration);
@@ -47,4 +46,7 @@
             $response = "Oops! " . $mail->ErrorInfo;
         exit(json_encode(array("response" => $response)));
     }
+    else {
+
+    };
 ?>

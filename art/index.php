@@ -1,9 +1,7 @@
 <?php
-    use PHPMailer;
-
-    if (isset($_POST['name']) && isset($_POST['phoneNumber']) && isset($_POST['yourEmail']) && isset($_POST['timeDate']) && isset($_POST['duration']) && isset($_POST['publicPrivate']) && isset($_POST['guests']) && isset($_POST['considerations']) && isset($_POST['catering']) && isset($_POST['details']))
+ if (isset($_POST['yourName']) && isset($_POST['emailAddress']) && isset($_POST['port']) && isset($_POST['timeDate']) && isset($_POST['duration']) && isset($_POST['publicPrivate']) && isset($_POST['guests']) && isset($_POST['considerations']) && isset($_POST['catering']) && isset($_POST['details']))
      {
-        $name = $_POST['name'];
+        $name = $_POST['name']; 
         $phoneNumber = $_POST['phoneNumber'];
         $yourEmail = $_POST['yourEmail'];
         $timeDate = $_POST['timeDate'];
@@ -41,5 +39,5 @@
         else
             $response = "Oops! " . $mail->ErrorInfo;
         exit(json_encode(array("response" => $response)));
-    }
+    } 
 ?>

@@ -1,3 +1,6 @@
-$('#datetimepicker1').datetimepicker({
-  locale: 'fr'
-});
+
+
+function send(){
+  alert("BOB RULE!");
+  return true;
+};
