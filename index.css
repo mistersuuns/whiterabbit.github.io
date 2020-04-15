@@ -1,6 +1,6 @@
-/* {
+* {
     border: solid black .2px;
-} */
+}
 
 
 *, .col, #address {
@@ -544,7 +544,7 @@ padding-bottom: 4vh;}
         font-size: 0.7em;
     }
 
-    .cropAmy, .takeAway, #outlineWR {
+    .cropAmy, .picasso, .takeAway, #outlineWR {
         display: none;
     }
 }
