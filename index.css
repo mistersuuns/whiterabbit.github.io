@@ -91,6 +91,11 @@
     font-family: "BrandonReg";
 text-align: left;
 }
+.store {
+    text-align: left;
+    padding-top: 4vh;
+};
+
 .picasso {
     text-align: left;
     padding-top: 7vh;
