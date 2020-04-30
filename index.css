@@ -242,7 +242,7 @@ letter-spacing: 0.1vw;
         font-size: 0.7em;
     }
     
-    #cropAmy, #cropAdrian {
+    #cropAmy, #cropAdrian, #picasso {
         max-width: 11vw;
     }
     #outlineWR {
@@ -322,7 +322,7 @@ letter-spacing: 0.1vw;
         font-size: 0.6em;
     }
 
-    #cropAmy, #cropAdrian {
+    #cropAmy, #cropAdrian, #picasso {
         max-width: 13vw;
     }
     #outlineWR {
@@ -389,7 +389,7 @@ letter-spacing: 0.1vw;
     #train-station {
         font-size: 12px;
     }
-    #cropAmy, #cropAdrian {
+    #cropAmy, #cropAdrian, #picasso {
         max-width: 13vw;
     }
     #outlineWR {
@@ -459,7 +459,7 @@ letter-spacing: 0.1vw;
         padding-top: 4vh;
         padding-left: 7vw;
     }
-    #cropAmy, #cropAdrian {
+    #cropAmy, #cropAdrian, #picasso {
         max-width: 13vw;
     }
     #outlineWR {
