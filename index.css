@@ -199,13 +199,7 @@ letter-spacing: 0.1vw;
         width: 1em;
     }
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
-    #caffeine {
-        font-family: "BrandonReg";
-        font-size: 20px;
-        line-height: 1.5em;
-        max-width: 50vw;
-        height: auto;
-    }
+
     #espressoMenu {
         width: 30vw;
     }
@@ -275,16 +269,9 @@ letter-spacing: 0.1vw;
         width: 1em;
     }
 /* LARGE LARGE LARGE LARGE LARGE LARGE */
-
-    #caffeine {
-        font-family: "BrandonReg";
-        font-size: 18px;
-        line-height: 1.25em;
-        max-width: 50vw;
-        height: auto;
-    }
     #espressoMenu {
         width: 30vw;
+        margin: 0;
     }
 
     #menuText {
@@ -363,11 +350,6 @@ letter-spacing: 0.1vw;
 
 /* MED MED MED MED MED MED MED MED MED */
 
-    #caffeine {
-        font-family: "BrandonReg";
-        font-size: 17px;
-        line-height: 25px;
-    }
     #espressoMenu {
         max-width: 35vw;
     }
