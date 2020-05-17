@@ -291,7 +291,9 @@ letter-spacing: 0.1vw;
         line-height: 2em;
         font-size: 32px;
     }
-
+    #takeAway {
+        max-width: 
+    }
     #address {
         line-height: 1.5em;
         font-size: 1.5em;
@@ -340,7 +342,9 @@ letter-spacing: 0.1vw;
     #menuMed {
         display: none;
     }
-
+    #takeAway {
+        max-width: 25vw;
+    }
     #ethos,
     #menuText {
         font-size: 18px;
