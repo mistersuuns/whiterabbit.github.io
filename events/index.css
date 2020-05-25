@@ -1,6 +1,6 @@
 /* {
     border: solid black .2px;
-}*/
+} */
 
 
 *, .col, #address {
@@ -64,13 +64,16 @@
 .row75top {
     padding-top: 10vh;
 }
+.row100top {
+    padding-top: 15vh;
+}
 .row75bottom{
     padding-bottom: 10vh;
 }
 
 .takeAway {
     text-align: right;
-    padding-top: 4vh;
+    padding-top: 2vh;
     padding-bottom: 10vh;
 }
 #takeAway {
@@ -83,20 +86,35 @@
 }
 
 #ethos,
-#caffeine {
+#caffeine, #espressoMenu {
     display: inline-block;
-    text-align: left;
     font-family: "BrandonReg";
+text-align: left;
 }
-#ethosText, #caffeine {
+.store {
+    text-align: left;
+    padding-top: 4vh;
+}
+
+.picasso {
+    text-align: left;
+    padding-top: 4vh;
+}
+.art {
+    display: inline-block;
+    font-family: "BrandonReg";
+    text-align: right;
+}
+
+#ethosText {
 letter-spacing: 0.1vw;
 }
-#caffeine {
-    border: .1px solid rgb(0, 0, 0);
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    margin-left: 1.5vw;
-    margin-top: 1vh;
+
+
+#espressoMenu {
+        border: .1px solid rgb(0, 0, 0);
+        padding: 2vh;
+        margin-right: 5vw;
 }
 
 #menuText,
@@ -109,8 +127,8 @@ letter-spacing: 0.1vw;
 
 #formAddress, .menu {
     font-family: "BrandonReg";
-
 }
+
 #philosophy, #touch, #location, #hours {
     letter-spacing: .6vw;
     color: black;
@@ -148,8 +166,7 @@ letter-spacing: 0.1vw;
     letter-spacing: .6vw;
     color: rgb(60, 95, 95);
 }
-#instagram,
-#email {
+#instagram {
     font-size: 2em;
 }
 
@@ -165,7 +182,7 @@ letter-spacing: 0.1vw;
     }
 
     .wTmob, .wTxs {
-        display: none
+        display: none;
     }
 
     #whiteRabbitImg {
@@ -178,14 +195,15 @@ letter-spacing: 0.1vw;
         font-size: 1.3em;
         line-height: 1.3em;
     }
-/* XL XL XL XL XL XL XL XL XL XL XL XL */
-    #caffeine {
-        font-family: "BrandonReg";
-        font-size: 20px;
-        line-height: 1.5em;
-        max-width: 50vw;
-        height: auto;
+    #tap {
+        width: 1em;
     }
+/* XL XL XL XL XL XL XL XL XL XL XL XL */
+
+    #espressoMenu {
+        width: 30vw;
+    }
+
     #menuMed {
         display: none;
     }
@@ -196,17 +214,12 @@ letter-spacing: 0.1vw;
 
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
 #philosophy,
+    #touch,
     #location,
     #hours {
         line-height: 2em;
         font-size: 36px;
     }
-    #touch {
-        line-height: 1.65em;
-        font-size: 36px;
-        padding-top: .7vh;
-    }
-
     #address {
         line-height: 1.5em;
         font-size: 1.5em;
@@ -215,8 +228,12 @@ letter-spacing: 0.1vw;
         font-size: 0.7em;
     }
     
-    #cropAmy, #cropAdrian {
+    #cropAmy, #cropAdrian, #picasso {
         max-width: 11vw;
+    }
+    #outlineWR {
+        width: 20vw;
+        padding-top: 2vh;
     }
 }
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
@@ -248,14 +265,13 @@ letter-spacing: 0.1vw;
         line-height: 24px;
         letter-spacing: 0.2vw;
     }
+    #tap {
+        width: 1em;
+    }
 /* LARGE LARGE LARGE LARGE LARGE LARGE */
-
-    #caffeine {
-        font-family: "BrandonReg";
-        font-size: 18px;
-        line-height: 1.25em;
-        max-width: 50vw;
-        height: auto;
+    #espressoMenu {
+        width: 30vw;
+        margin: 0;
     }
 
     #menuText {
@@ -269,17 +285,15 @@ letter-spacing: 0.1vw;
 
 /* LARGE LARGE LARGE LARGE LARGE LARGE */
     #philosophy,
+    #touch,
     #location,
     #hours {
         line-height: 2em;
         font-size: 32px;
     }
-    #touch {
-        line-height: 1.65em;
-        font-size: 32px;
-        padding-top: .7vh;
+    #takeAway {
+        max-width: 
     }
-
     #address {
         line-height: 1.5em;
         font-size: 1.5em;
@@ -289,8 +303,12 @@ letter-spacing: 0.1vw;
         font-size: 0.6em;
     }
 
-    #cropAmy, #cropAdrian {
+    #cropAmy, #cropAdrian, #picasso {
         max-width: 13vw;
+    }
+    #outlineWR {
+        width: 20vw;
+        padding-top: 2vh;
     }
 }
 /* LARGE LARGE LARGE LARGE LARGE LARGE */
@@ -299,10 +317,10 @@ letter-spacing: 0.1vw;
 
 /* MED MED MED MED MED MED MED MED MED */
 /* MED MED MED MED MED MED MED MED MED */
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 991px) {
     #ul {
-        width: 81vw;
-        padding-left: 17%;
+        width: 87.5vw;
+        padding-left: 8%;
     }
     #nav {
         font-size: 1.1em;
@@ -317,12 +335,18 @@ letter-spacing: 0.1vw;
     }
 
     #whiteRabbitImg {
-        max-width: 65vw;
+        max-width: 80vw;
         padding-top: 12.5vh;
     }
 
-    #ethos,
     #menuMed {
+        display: none;
+    }
+    #takeAway {
+        max-width: 25vw;
+    }
+    #ethos,
+    #menuText {
         font-size: 18px;
         line-height: 25px;
         letter-spacing: .2vw;
@@ -330,21 +354,15 @@ letter-spacing: 0.1vw;
 
 /* MED MED MED MED MED MED MED MED MED */
 
-    #caffeine {
-        font-family: "BrandonReg";
-        font-size: 17px;
-        line-height: 25px;
+    #espressoMenu {
+        max-width: 35vw;
     }
     #philosophy,
+    #touch,
     #location,
     #hours {
         line-height: 35px;
         font-size: 25px;
-    }
-    #touch {
-        line-height: 30px;
-        font-size: 25px;
-        padding-top: .5vh;
     }
     #address {
         line-height: 25px;
@@ -353,8 +371,12 @@ letter-spacing: 0.1vw;
     #train-station {
         font-size: 12px;
     }
-    #cropAmy, #cropAdrian {
+    #cropAmy, #cropAdrian, #picasso {
         max-width: 13vw;
+    }
+    #outlineWR {
+        width: 30vw;
+        padding-top: 2vh;
     }
 }
 /* MED MED MED MED MED MED MED MED MED */
@@ -363,10 +385,10 @@ letter-spacing: 0.1vw;
 
 /* SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
 /* SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 576px) and (max-width: 767px) {
+    
     #ul {
-        width: 90vw;
-        padding-left: 9%;
+        width: 95vw;
     }
     #nav {
         font-size: 1.1em;
@@ -386,6 +408,7 @@ letter-spacing: 0.1vw;
         line-height: 25px;
         letter-spacing: .2vw;
     }
+
     #menuMed {
         display: none;
     }
@@ -395,17 +418,16 @@ letter-spacing: 0.1vw;
         font-size: 17px;
         line-height: 25px;
     }
+    #espressoMenu {
+        max-width: 40vw;
+    }
 /* SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
     #philosophy,
+    #touch,
     #location,
     #hours {
         line-height: 35px;
         font-size: 25px;
-    }
-    #touch {
-        line-height: 30px;
-        font-size: 25px;
-        padding-top: .5vh;
     }
 
     #address {
@@ -417,11 +439,15 @@ letter-spacing: 0.1vw;
         font-size: 12px;
     }
     .cropAmy, .cropAdrian {
-        padding-top: 4vh;
+        padding-top: 2vh;
         padding-left: 7vw;
     }
-    #cropAmy, #cropAdrian {
-        max-width: 13vw;
+    #cropAmy, #cropAdrian, #picasso {
+        max-width: 20vw;
+    }
+    #outlineWR {
+        width: 40vw;
+        padding-top: 2vh;
     }
 }
 /* SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
@@ -430,7 +456,7 @@ letter-spacing: 0.1vw;
 
 /* XS XS XS XS XS XS XS XS XS */
 /* XS XS XS XS XS XS XS XS XS */
-@media (max-width: 767px) {
+@media (max-width: 575px) {
     #ul {
         width: 90vw;
         padding-left: 1vw;
@@ -439,7 +465,8 @@ letter-spacing: 0.1vw;
         font-size: .9em;
     }
 
-    .wTbig, .wTmob, #takeAway {
+    .wTbig, 
+    .wTmob {
         display: none;
     }
     .wTxs {
@@ -454,6 +481,19 @@ letter-spacing: 0.1vw;
         padding-top: 10vh;
         padding-bottom: 5vh;
     }
+    .cropAmy {
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+#break {
+    display: none;
+}
+.takeAway {
+    padding-top: 1vh;
+}
+#amy {
+    padding-top: 2vh;
+}
 
     #ethos,
     #menuMed {
@@ -464,12 +504,16 @@ letter-spacing: 0.1vw;
     padding-left: 4vw;
     padding-right: 4vw;
 }
-#menuMed {padding-right: 4vw;
+
+#menuMed {
+    padding-right: 4vw;
 padding-left: 4vw;
-padding-bottom: 4vh;}
-#caffeine {padding-left: 4vw;
+padding-bottom: 4vh;
 }
 
+#espressoMenu {
+    max-width: 85vw;
+}
 #address {
     padding-left: 30vw;
 }
@@ -489,22 +533,22 @@ padding-bottom: 4vh;}
 
     #philosophy,
     #location,
+    #touch,
     #hours {
         font-size: 23px;
         line-height: 35px;
-    }
-    #touch {
-        line-height: 30px;
-        font-size: 23px;
-        padding-top: .5vh;
     }
 
     #train-station {
         font-size: 0.7em;
     }
 
-    .cropAmy, .takeAway {
-        display: none;
+    .cropAmy, .picasso, .takeAway, #outlineWR {
+
+    }
+
+    #cropAmy, #takeAway, #outlineWR, #picasso {
+        max-width: 40vw;
     }
 }
 
