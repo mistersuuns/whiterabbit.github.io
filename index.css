@@ -1,6 +1,6 @@
 /* {
     border: solid black .2px;
-} */
+}*/ 
 
 
 *, .col, #address {
@@ -81,7 +81,7 @@
 }
 .cropAmy, .cropAdrian {
     text-align: right;
-    padding-top: 4vh;
+    padding-top: 1vh;
     padding-left: 10vw;
 }
 
@@ -441,7 +441,7 @@ letter-spacing: 0.1vw;
         font-size: 12px;
     }
     .cropAmy, .cropAdrian {
-        padding-top: 2vh;
+        padding-top: 1vh;
         padding-left: 7vw;
     }
     #cropAmy, #cropAdrian, #picasso {
@@ -549,7 +549,7 @@ padding-bottom: 4vh;
 
     }
 
-    #cropAmy, #takeAway, #outlineWR, #picasso {
+    #cropAmy, #cropAdrian, #takeAway, #outlineWR, #picasso {
         max-width: 40vw;
     }
 }
