@@ -229,8 +229,11 @@ letter-spacing: 0.1vw;
         font-size: 0.7em;
     }
     
-    #cropAmy, #cropAdrian, #picasso {
+    #cropAmy, #cropAdrian {
         max-width: 11vw;
+    }
+    #picasso {
+        max-width: 10vw;
     }
     #outlineWR {
         width: 20vw;
@@ -305,8 +308,11 @@ letter-spacing: 0.1vw;
         font-size: 0.6em;
     }
 
-    #cropAmy, #cropAdrian, #picasso {
+    #cropAmy, #cropAdrian {
         max-width: 13vw;
+    }
+    #picasso {
+        max-width: 12vw;
     }
     #outlineWR {
         width: 20vw;
@@ -373,8 +379,11 @@ letter-spacing: 0.1vw;
     #train-station {
         font-size: 12px;
     }
-    #cropAmy, #cropAdrian, #picasso {
+    #cropAmy, #cropAdrian {
         max-width: 13vw;
+    }
+    #picasso {
+        max-width: 12vw;
     }
     #outlineWR {
         width: 30vw;
@@ -444,8 +453,11 @@ letter-spacing: 0.1vw;
         padding-top: 1vh;
         padding-left: 7vw;
     }
-    #cropAmy, #cropAdrian, #picasso {
+    #cropAmy, #cropAdrian {
         max-width: 20vw;
+    }
+    #picasso {
+        max-width: 18vw;
     }
     #outlineWR {
         width: 40vw;
@@ -549,8 +561,11 @@ padding-bottom: 4vh;
 
     }
 
-    #cropAmy, #cropAdrian, #takeAway, #outlineWR, #picasso {
+    #cropAmy, #cropAdrian, #takeAway, #outlineWR {
         max-width: 40vw;
+    }
+    #picasso {
+        max-width: 35vw;
     }
 }
 
