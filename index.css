@@ -1,6 +1,6 @@
 /* {
     border: solid black .2px;
-}*/ 
+} */
 
 
 *, .col, #address {
@@ -345,6 +345,7 @@ letter-spacing: 0.1vw;
     #whiteRabbitImg {
         max-width: 80vw;
         padding-top: 12.5vh;
+        padding-bottom: 5vh;
     }
 
     #menuMed {
