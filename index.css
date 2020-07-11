@@ -2,6 +2,11 @@
     border: solid black .2px;
 } */
 
+body {
+    position: relative;
+}
+.navbar-nav .nav-link.active {
+text-decoration: underline;}
 
 *, .col, #address {
     padding: 0;
