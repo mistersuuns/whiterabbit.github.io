@@ -90,7 +90,7 @@ text-decoration: underline;}
     padding-left: 10vw;
 }
 
-#ethos,
+#store, #ethos,
 #caffeine, #espressoMenu {
     display: inline-block;
     font-family: "BrandonReg";
@@ -359,7 +359,7 @@ letter-spacing: 0.1vw;
     #takeAway {
         max-width: 25vw;
     }
-    #ethos,
+    #store, #ethos,
     #menuText {
         font-size: 18px;
         line-height: 25px;
@@ -420,7 +420,7 @@ letter-spacing: 0.1vw;
         padding-bottom: 5vh;
     }
 
-    #ethos, #menuText {
+    #store, #ethos, #menuText {
         font-size: 18px;
         line-height: 25px;
         letter-spacing: .2vw;
@@ -515,12 +515,12 @@ letter-spacing: 0.1vw;
     padding-top: 2vh;
 }
 
-    #ethos,
+#store, #ethos,
     #menuMed {
         font-size: 18px;
         line-height: 23px;
     }
-#ethos {
+    #store, #ethos {
     padding-left: 4vw;
     padding-right: 4vw;
 }
