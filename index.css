@@ -90,7 +90,7 @@ text-decoration: underline;}
     padding-left: 10vw;
 }
 
-#store, #ethos,
+#ethos,
 #caffeine, #espressoMenu {
     display: inline-block;
     font-family: "BrandonReg";
@@ -359,7 +359,7 @@ letter-spacing: 0.1vw;
     #takeAway {
         max-width: 25vw;
     }
-    #store, #ethos,
+    #ethos,
     #menuText {
         font-size: 18px;
         line-height: 25px;
@@ -413,6 +413,9 @@ letter-spacing: 0.1vw;
     .wTbig, .wTxs {
         display: none;
     }
+    .wTmob {
+        text-align: center;
+    }
 
     #whiteRabbitImg {
         max-width: 80vw;
@@ -420,7 +423,7 @@ letter-spacing: 0.1vw;
         padding-bottom: 5vh;
     }
 
-    #store, #ethos, #menuText {
+    #ethos, #menuText {
         font-size: 18px;
         line-height: 25px;
         letter-spacing: .2vw;
@@ -478,11 +481,15 @@ letter-spacing: 0.1vw;
 /* XS XS XS XS XS XS XS XS XS */
 @media (max-width: 575px) {
     #ul {
-        width: 90vw;
-        padding-left: 1vw;
+        width: 92.5vw;
     }
     #nav {
-        font-size: .9em;
+        padding:0;
+        font-size: .8em;
+    }
+    .nav-link {
+        padding: 0;
+        margin: 0;
     }
 
     .wTbig, 
@@ -490,15 +497,15 @@ letter-spacing: 0.1vw;
         display: none;
     }
     .wTxs {
+        text-align: center;
         color: black;
         font-family: "BrandonBlk";
-        text-align: left;
         border-bottom: 1px solid rgb(75, 75, 75);
     }
     #whiteRabbitImg {
         max-width: 80vw;
         padding-left: 2vw;
-        padding-top: 10vh;
+        padding-top: 12.5vh;
         padding-bottom: 5vh;
     }
     .cropAmy {
@@ -515,12 +522,12 @@ letter-spacing: 0.1vw;
     padding-top: 2vh;
 }
 
-#store, #ethos,
+    #ethos,
     #menuMed {
         font-size: 18px;
         line-height: 23px;
     }
-    #store, #ethos {
+#ethos {
     padding-left: 4vw;
     padding-right: 4vw;
 }
