@@ -185,8 +185,9 @@ letter-spacing: 0.1vw;
     #nav {
         font-size: 1.3em;
     }
-
-
+    #navS, #navXS {
+        display: none;
+    }
     .wTmob, .wTxs {
         display: none;
     }
@@ -260,7 +261,9 @@ letter-spacing: 0.1vw;
     #nav {
         font-size: 1.2em;
     }
-
+    #navS, #navXS {
+        display: none;
+    }
     .wTmob, .wTxs {
         display: none;
     }
@@ -338,6 +341,9 @@ letter-spacing: 0.1vw;
     #nav {
         font-size: 1.1em;
     }
+    #navS, #navXS {
+        display: none;
+    }
     .wTmob, .wTxs {
         display: none;
     }
@@ -409,6 +415,9 @@ letter-spacing: 0.1vw;
     }
     #nav {
         font-size: 1.1em;
+    }
+    #navMLXL, #navXS {
+        display: none;
     }
     .wTbig, .wTxs {
         display: none;
@@ -486,6 +495,9 @@ letter-spacing: 0.1vw;
     #nav {
         padding:0;
         font-size: .8em;
+    }
+    #navMLXL, #navS {
+        display: none;
     }
     .nav-link {
         padding: 0;
