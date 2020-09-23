@@ -198,8 +198,8 @@ letter-spacing: 0.1vw;
 
     #whiteRabbitImg {
         max-width: 65vw;
-        padding-top: 12.5vh;
-        padding-bottom: 7.5vh;
+        padding-top: 15vh;
+        padding-bottom: 6.5vh;
     }
 
     #ethosText {
@@ -273,8 +273,8 @@ letter-spacing: 0.1vw;
     }
     #whiteRabbitImg {
         max-width: 65vw;
-        padding-top: 12.5vh;
-        padding-bottom: 7.5vh;
+        padding-top: 15vh;
+        padding-bottom: 6.5vh;
     }
 /* LARGE LARGE LARGE LARGE LARGE LARGE */
     #ethosText {
@@ -359,7 +359,7 @@ letter-spacing: 0.1vw;
 
     #whiteRabbitImg {
         max-width: 80vw;
-        padding-top: 12.5vh;
+        padding-top: 15vh;
         padding-bottom: 5vh;
     }
 
@@ -432,7 +432,7 @@ letter-spacing: 0.1vw;
 
     #whiteRabbitImg {
         max-width: 80vw;
-        padding-top: 10vh;
+        padding-top: 15vh;
         padding-bottom: 5vh;
     }
 
@@ -520,8 +520,7 @@ letter-spacing: 0.1vw;
     }
     #whiteRabbitImg {
         max-width: 80vw;
-        padding-left: 2vw;
-        padding-top: 12.5vh;
+        padding-top: 11vh;
         padding-bottom: 5vh;
     }
     .cropAmy {
