@@ -165,16 +165,17 @@ letter-spacing: 0.1vw;
 }
 #enjoy {
     font-size: 1.6em;
-    letter-spacing: .6vw;
+    letter-spacing: .3em;
     color: rgb(60, 95, 95);
 }
 #instagram {
     font-size: 2em;
 }
 #copyright {
-    font-size: .8em;
+    font-size: 1em;
     padding-top: .8vh;
-    letter-spacing: .25em;
+    padding-bottom: .4vh;
+    letter-spacing: .475em;
 }
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
@@ -596,6 +597,7 @@ padding-bottom: 4vh;
     #picasso {
         max-width: 35vw;
     }
+
 }
 
 /* XS XS XS XS XS XS XS XS XS */
